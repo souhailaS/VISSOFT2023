@@ -1,4 +1,5 @@
 # VISSOFT2023
 
 ## RNAget API
-- [RNAget API changes visualization](https://github.com/souhailaS/VISSOFT2023/blob/main/changes-visualization-%20RNAget%20API.html)
+- [RNAget API changes visualization](https://souhailas.github.io/VISSOFT2023/changes-visualization-%20RNAget%20API.html)
+
