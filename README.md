@@ -4,15 +4,15 @@ In this page we present a comprehensive collection of visualization examples, in
 
 **Note that all the selected examples are real world APIs that are in production. **
 
-## API examples included in the paper
+# API examples included in the paper
 
-### RNAget API
+## RNAget API
 Source: 
 - [RNAget API changes visualization](https://souhailas.github.io/VISSOFT2023/changes-visualization-%20RNAget%20API.html)
   
 
 
-### Vault API
+## Vault API
 Source: https://github.com/apideck-libraries/openapi-specs/blob/master/vault.yml
 
 * Found 321 commits changing OAS file
@@ -22,10 +22,52 @@ Source: https://github.com/apideck-libraries/openapi-specs/blob/master/vault.yml
     * [Vault API changes visualization](https://souhailas.github.io/VISSOFT2023/changes-visualization-vault-api.html)
     * [Vault API version clock](https://souhailas.github.io/VISSOFT2023/versions-clock-vault-api.html)
 
+|API Changes |    	| 
+|:---	|---:	|
+|API Changes  |        261 Changes|         
+|Breaking Changes|     32 (12.26%)  Changes |
+|Non Breaking Changes |229 (87.74%)  Changes|
+
+|API Versioning||
+|:---	|---:	|
+API Versions   | 193 Versions|
+Version Changes |194 Changes|
+
+
+VERSION| CHANGE | BACKWARDS |BREAKING| NON BREAKING
+|:---  |---:	|---:	    |---:	 |---:	       
+none   |  125   |  0        | **20** |  69          
+minor  |  122   |  0        | 0      |  108         
+major  |  9     |  0        | 1      |  7           
+patch  |  63    |  1        | **11** |  57  
+
+
+## Main OverOps API
+Source: https://github.com/takipi/api-spec/blob/master/services.yaml
+
+(api.overops.com)
+
+* Found 229 commits changing OAS file
+* From [11th March, 2018] to [10th June, 2021]
+* API Versions: 1
+
+    * [Main OverOps API changes visualization](https://souhailas.github.io/VISSOFT2023/changes-visualization-overops-api.html)
+    * [Main OverOps API version clock](https://souhailas.github.io/VISSOFT2023/versions-clock-overops-api.html)
+
+
+|API Changes |    	| 
+|:---	|---:	|
+|API Changes | 267 Changes     	| 
+|Breaking Changes    | 125 (46.82%)  Changes
+|Non Breaking Changes| 142 (53.18%)  Changes
+
+
+
+
 ---
 
 ## Other API examples 
-### ARD-Eventhub API
+## ARD-Eventhub API
 Source: https://github.com/swrlab/ard-eventhub/blob/main/openapi.json
 * Found 67 commits changing OAS file
 * From [3th February, 2021] to [19th April, 2023]
@@ -34,7 +76,7 @@ Source: https://github.com/swrlab/ard-eventhub/blob/main/openapi.json
   * [ARD-Eventhub API changes visualization](https://souhailas.github.io/VISSOFT2023/changes-visualization-ARD-Eventhub-api.html)
   * [ARD-Eventhub API version clock](https://souhailas.github.io/VISSOFT2023/versions-clock-ARD-Eventhub-api.html)
 
-### Bmore Responsive API
+## Bmore Responsive API
 Source: https://github.com/CodeForBaltimore/Bmore-Responsive
 
 Note: In the recent latest commit in the repository the OpenAPI description is no longer at the root level of the repository and was moved to `src/api-docs/v1/swagger.json`. Where now another new specification for the version `v2` of the API is published. 
@@ -46,7 +88,7 @@ Note: In the recent latest commit in the repository the OpenAPI description is n
   * [Bmore Responsive API changes visualization](https://souhailas.github.io/VISSOFT2023/changes-visualization-bemoreresponsive-api.html)
   * [Bmore Responsive API version clock](https://souhailas.github.io/VISSOFT2023/versions-clock-bemoreresponsive-api.html)
 
-### SunRocks API
+## SunRocks API
 Source: https://github.com/trigo-at/sunrocks-public-api-docs/blob/master/public-api.yaml
 
 (https://www.sunrocks.at/)
@@ -60,10 +102,47 @@ Source: https://github.com/trigo-at/sunrocks-public-api-docs/blob/master/public-
 
 
 
+## Megasense data portal API
+
+Source: https://github.com/Metatavu/megasense-data-portal-api-spec/blob/master/swagger.yaml
+
+(https://megasense-server.cs.helsinki.fi/)
+
+* Found 156 commits changing OAS file
+* From [30th September, 2020] to [9th May, 2023]
+* API Versions: 1
+
+    * [Megasense data portal API changes visualization](https://souhailas.github.io/VISSOFT2023/changes-visualization-megasense-api.html)
+    * [Megasense data portal API version clock](https://souhailas.github.io/VISSOFT2023/versions-clock-megesense-api.html)
 
 
+|API Changes |    	| 
+:---      | ---:
+API Changes  |        180 Changes  
+Breaking Changes    | 106 (58.89%)  Changes
+Non Breaking Changes| 74 (41.11%)  Changes
+
+API Versioning | |
+ :---     | ---:
+API Versions   | 1 Versions
+Version Changes | 0 Changes 
+
+VERSION | CHANGE | BACKWARDS| BREAKING| NON BREAKING
+:---      | ---: | ---: | ---: | ---:
+none      |     154  |   0     |    106   |   69    
 
 
+## Moank Partner API
+
+Source: https://github.com/Moank/moank-open-api-docs/blob/master/specifications/partners/partners.yml
+(https://docs.moank.se/)
+
+* Found 68 commits changing OAS file
+* From [23th October, 2019] to [16th June, 2022]
+* API Versions: 1
+
+    * [Moank Partner API changes visualization](https://souhailas.github.io/VISSOFT2023/changes-visualization-moank-partner-api.html)
+    * [Moank Partner API version clock](https://souhailas.github.io/VISSOFT2023/versions-clock-moank-partner-api.html)
 
 
   
