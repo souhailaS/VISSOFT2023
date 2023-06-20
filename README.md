@@ -228,10 +228,14 @@ patch  |        45   |   0  |       0   |     37
 
 
 
+## VTEX - Antifraud Provider API
 
+(https://developers.vtex.com/docs/api-reference)
 
+* Found 101 commits changing OAS file
+* From [12th May, 2020] to [19th April, 2023]
+* API Versions: 1
 
-
-
-
+    * [Antifraud API changes visualization](https://souhailas.github.io/VISSOFT2023/changes-visualization-Antifraud-api.html)
+    * [Antifraud API version clock](https://souhailas.github.io/VISSOFT2023/versions-clock-Antifraud-api.html) 
 
