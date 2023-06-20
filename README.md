@@ -113,7 +113,7 @@ Source: https://github.com/Metatavu/megasense-data-portal-api-spec/blob/master/s
 * API Versions: 1
 
     * [Megasense data portal API changes visualization](https://souhailas.github.io/VISSOFT2023/changes-visualization-megasense-api.html)
-    * [Megasense data portal API version clock](https://souhailas.github.io/VISSOFT2023/versions-clock-megesense-api.html)
+    * [Megasense data portal API version clock](https://souhailas.github.io/VISSOFT2023/versions-clock-megasense-api.html)
 
 
 |API Changes |    	| 
