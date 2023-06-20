@@ -74,7 +74,8 @@ Source: https://github.com/openshift/assisted-service/blob/master/swagger.yaml
 * API Versions: 1
 
     * [Openshift Assisted service APIchanges visualization](https://souhailas.github.io/VISSOFT2023/changes-visualization-openshift-api.html)
-      * The changed visuali
+      * The changed visualization reveals that a majority of the changes  are very granular occuring at specific levels within the API structure.In the case of paths modification we can see that they  targeted  schemas of request bodies for POST operations.  Conversely, modifications targeting the GET methods are relatively few in number. Among these changes, the most common types include the addition of query parameters, response headers, or the inclusion of security requirements. These changes suggests that the bulk of the modifications made to the API pertain to the functional aspects and data models associated with POST operations, while modifications to GET methods tend to focus on enhancing query and security capabilities.
+  
     * [Openshift Assisted service API version clock](https://souhailas.github.io/VISSOFT2023/versions-clock-openshift-api.html)
 
 
