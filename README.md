@@ -146,4 +146,18 @@ Source: https://github.com/Moank/moank-open-api-docs/blob/master/specifications/
 
 
   
+## MLModelScope API
+
+Source: https://github.com/rai-project/dlframework/blob/master/dlframework.swagger.json
+
+(www.mlmodelscope.org)
+
+* Found 84 commits changing OAS file
+* From [13th June, 2017] to [15th July, 2019]
+* API Versions: 3
+  
+    * [MLModelScope API changes visualization](https://souhailas.github.io/VISSOFT2023/changes-visualization-MLModelScope-api.html)
+    * [MLModelScope API version clock](https://souhailas.github.io/VISSOFT2023/versions-clock-MLModelScope-api.html) 
+
+
 
