@@ -2,7 +2,7 @@
 # APIcture: Interactively exploring API structural changes and versioning consistency
 In this page we present a comprehensive collection of visualization examples, including those featured in the paper, as well as additional examples that we find intriguing but were not included in the paper. For each visualization example, we provide relevant metadata related to the evolution of the subject, such as version numbers, timestamps, and release dates. Additionally, we specify the source OpenAPI Specification (OAS) used to generate the visualizations, ensuring transparency and reproducibility. Each example is accompanied by its corresponding visualization, allowing readers to explore and analyze the visual representations of API evolution. 
 
-**Note that all the selected examples are real world APIs that are in production. **
+**Note that all the selected examples are real world APIs that are in production.**
 
 # API examples included in the paper
 
@@ -63,6 +63,36 @@ Source: https://github.com/takipi/api-spec/blob/master/services.yaml
 
 
 
+## Openshift Assisted service API
+
+Source: https://github.com/openshift/assisted-service/blob/master/swagger.yaml
+
+(api.openshift.com)
+
+* Found 567 commits changing OAS file
+* From [25th February, 2020] to [4th June, 2023]
+* API Versions: 1
+
+    * [Openshift Assisted service APIchanges visualization](https://souhailas.github.io/VISSOFT2023/changes-visualization-openshift-api.html)
+      * The changed visuali
+    * [Openshift Assisted service API version clock](https://souhailas.github.io/VISSOFT2023/versions-clock-openshift-api.html)
+
+
+
+|API Changes |    	| 
+|:---	|---:	|
+API Changes      |    459 Changes          
+Breaking Changes  |   187 (40.74%)  Changes
+Non Breaking Changes | 272 (59.26%)  Changes
+
+|API Versioning||
+|:---	|---:	|   
+API Versions   | 1 Versions
+Version Changes| 0 Changes 
+
+VERSION| CHANGE |BACKWARDS  |BREAKING| NON BREAKING
+|:---  |---:	|---:	    |---:	 |---:	
+none   | 565  |   0    |     187 |     231   
 
 ---
 
@@ -158,6 +188,50 @@ Source: https://github.com/rai-project/dlframework/blob/master/dlframework.swagg
   
     * [MLModelScope API changes visualization](https://souhailas.github.io/VISSOFT2023/changes-visualization-MLModelScope-api.html)
     * [MLModelScope API version clock](https://souhailas.github.io/VISSOFT2023/versions-clock-MLModelScope-api.html) 
+
+
+## OpenFairDB API
+
+
+Source: https://github.com/kartevonmorgen/openfairdb/blob/main/openapi.yaml
+
+(https://slowtec.de)
+
+* Found 144 commits changing OAS file
+* From [12th December, 2018] to [24th March, 2023]
+* API Versions: 56
+
+    * [OpenFairDB API changes visualization](https://souhailas.github.io/VISSOFT2023/changes-visualization-openfairdb-api.html)
+    * [OpenFairDB API version clock](https://souhailas.github.io/VISSOFT2023/versions-clock-openfairdb-api.html) 
+  
+
+
+|API Changes |    	| 
+:---      | ---:
+API Changes    |      127 Changes          
+Breaking Changes |    25 (19.69%)  Changes 
+Non Breaking Changes | 102 (80.31%)  Changes
+
+
+API Versioning | |
+ :---     | ---:
+API Versions  |  55 Versions
+Version Changes| 56 Changes 
+
+
+VERSION |CHANGE | BACKWARDS | BREAKING | NON BREAKING
+:---      | ---: | ---: | ---: | ---:
+none    |       86   |   0  |       25  |     32          
+minor   |       10   |   1  |       0   |     5           
+prepatch |      1    |   0  |      0    |    1           
+patch  |        45   |   0  |       0   |     37   
+
+
+
+
+
+
+
 
 
 
