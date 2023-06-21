@@ -232,3 +232,373 @@
 
 ------------------
 
+# Accounting API 
+
+
+**API titles**: Accounting API [2021-08-12 18:49:41 +0200
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** accounting.yml
+
+**Total Commits** 246
+
+**Total First Commit** 2021-08-12 18:49:41 +0200
+
+
+**Total Last Commit** 2023-06-16 09:51:10 +0200
+
+
+**Total API Age (days)** 673
+
+**Total Unique Versions** 164
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-accounting-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-accounting-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# ats 
+
+
+**API titles**: ats [2021-10-28 01:50:18 +0200
+] -> ATS API [2022-03-24 15:11:16 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** ats.yml
+
+**Total Commits** 190
+
+**Total First Commit** 2021-10-28 01:50:18 +0200
+
+
+**Total Last Commit** 2023-06-16 09:51:10 +0200
+
+
+**Total API Age (days)** 596
+
+**Total Unique Versions** 143
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-ats-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-ats-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# CRM API 
+
+
+**API titles**: CRM API [2020-12-04 08:02:49 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** crm.yml
+
+**Total Commits** 288
+
+**Total First Commit** 2020-12-04 08:02:49 +0100
+
+
+**Total Last Commit** 2023-06-16 09:51:10 +0200
+
+
+**Total API Age (days)** 924
+
+**Total Unique Versions** 192
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-crm-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-crm-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Customer Support 
+
+
+**API titles**: Customer Support [2021-10-20 00:44:23 +0200
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** customer-support.yml
+
+**Total Commits** 171
+
+**Total First Commit** 2021-10-20 00:44:23 +0200
+
+
+**Total Last Commit** 2023-05-15 17:07:04 +0200
+
+
+**Total API Age (days)** 573
+
+**Total Unique Versions** 141
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-customer-support-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-customer-support-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Ecommerce API 
+
+
+**API titles**: Ecommerce API [2023-01-27 17:35:54 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** ecommerce.yml
+
+**Total Commits** 42
+
+**Total First Commit** 2023-01-27 17:35:54 +0100
+
+
+**Total Last Commit** 2023-06-07 17:16:39 +0200
+
+
+**Total API Age (days)** 131
+
+**Total Unique Versions** 25
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-ecommerce-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-ecommerce-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# File storage API 
+
+
+**API titles**: File storage API [2021-08-31 19:45:50 +0200
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** file-storage.yml
+
+**Total Commits** 196
+
+**Total First Commit** 2021-08-31 19:45:50 +0200
+
+
+**Total Last Commit** 2023-06-16 09:51:10 +0200
+
+
+**Total API Age (days)** 654
+
+**Total Unique Versions** 158
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-file-storage-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-file-storage-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# hris 
+
+
+**API titles**: hris [2021-11-01 05:33:17 +0100
+] -> HRIS API [2021-12-16 11:46:23 +0100
+] -> hris [2022-01-04 05:27:56 +0100
+] -> HRIS API [2022-03-24 15:11:16 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** hris.yml
+
+**Total Commits** 212
+
+**Total First Commit** 2021-11-01 05:33:17 +0100
+
+
+**Total Last Commit** 2023-06-16 09:51:10 +0200
+
+
+**Total API Age (days)** 592
+
+**Total Unique Versions** 142
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-hris-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-hris-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Issue Tracking API 
+
+
+**API titles**: Issue Tracking API [2023-02-24 10:29:03 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** issue-tracking.yml
+
+**Total Commits** 31
+
+**Total First Commit** 2023-02-24 10:29:03 +0100
+
+
+**Total Last Commit** 2023-06-16 09:51:10 +0200
+
+
+**Total API Age (days)** 112
+
+**Total Unique Versions** 18
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-issue-tracking-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-issue-tracking-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Lead API 
+
+
+**API titles**: Lead API [2020-12-22 22:17:21 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** lead.yml
+
+**Total Commits** 269
+
+**Total First Commit** 2020-12-04 08:02:49 +0100
+
+
+**Total Last Commit** 2023-06-16 09:51:10 +0200
+
+
+**Total API Age (days)** 924
+
+**Total Unique Versions** 196
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-lead-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-lead-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# pos 
+
+
+**API titles**: pos [2021-12-04 01:15:27 +0100
+] -> POS API [2022-03-24 15:11:16 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** pos.yml
+
+**Total Commits** 168
+
+**Total First Commit** 2021-12-04 01:15:27 +0100
+
+
+**Total Last Commit** 2023-06-16 09:51:10 +0200
+
+
+**Total API Age (days)** 559
+
+**Total Unique Versions** 130
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-pos-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-pos-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Proxy API 
+
+
+**API titles**: Proxy API [2021-05-28 21:32:46 +0200
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** proxy.yml
+
+**Total Commits** 195
+
+**Total First Commit** 2021-05-28 21:31:22 +0200
+
+
+**Total Last Commit** 2023-06-07 17:16:39 +0200
+
+
+**Total API Age (days)** 740
+
+**Total Unique Versions** 180
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-proxy-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-proxy-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# sms 
+
+
+**API titles**: sms [2021-10-25 07:39:04 +0200
+] -> SMS API [2022-03-24 15:11:16 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** sms.yml
+
+**Total Commits** 165
+
+**Total First Commit** 2021-10-25 07:39:04 +0200
+
+
+**Total Last Commit** 2023-06-07 17:16:39 +0200
+
+
+**Total API Age (days)** 590
+
+**Total Unique Versions** 144
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-sms-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-sms-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Vault API 
+
+
+**API titles**: Vault API [2020-12-04 08:02:49 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** vault.yml
+
+**Total Commits** 321
+
+**Total First Commit** 2020-12-04 08:02:49 +0100
+
+
+**Total Last Commit** 2023-06-07 17:16:39 +0200
+
+
+**Total API Age (days)** 915
+
+**Total Unique Versions** 191
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-vault-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-vault-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
