@@ -1,24 +1,20 @@
-# GA4GH rnaget API [2019-04-05 11:25:42 -0700
-] -> rnaget API [2019-04-11 10:32:39 -0700
-] -> GA4GH rnaget API [2019-04-15 09:41:15 -0700
-] -> rnaget API [2019-04-15 09:55:53 -0700
-] -> RNAget API [2019-10-03 10:38:32 -0700
+# Megasense data portal API [2020-09-30 11:12:05 +0300
 ]
 
 
-**Source** https://github.com/ga4gh-rnaseq/schema.git
-**OAS File** rnaget-openapi.yaml
+**Source** https://github.com/Metatavu/megasense-data-portal-api-spec.git
+**OAS File** swagger.yaml
 
-**Total Commits** 34
+**Total Commits** 156
 
-**Total First Commit** 2019-04-05 11:25:42 -0700
-
-
-**Total Last Commit** 2023-04-20 14:04:54 -0700
+**Total First Commit** 2020-09-30 11:12:05 +0300
 
 
-**Total API Age (days)** 1538
+**Total Last Commit** 2023-05-09 16:41:47 +0300
 
-**Total Unique Versions** 6
 
-**[View Changes](https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-rnaget-openapi-api.html)<iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-rnaget-openapi-api.html" width="100%" height="500px"></iframe>
+**Total API Age (days)** 995
+
+**Total Unique Versions** 1
+
+**[View Changes](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-api.html)<iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-api.html" width="100%" height="500px"></iframe>
