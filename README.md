@@ -606,3 +606,116 @@
 
 ------------------
 
+# Sub-Spec 
+
+
+**API titles**: Sub-Spec [2018-11-03 12:50:43 +0100
+]
+
+
+**Source** https://github.com/wwi16ama/api_spec.git
+
+**OAS File** planes.yaml
+
+**Total Commits** 12
+
+**Total First Commit** 2018-10-29 15:59:36 +0100
+
+
+**Total Last Commit** 2019-04-06 16:05:57 +0200
+
+
+**Total API Age (days)** 159
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-planes-2-10-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-planes-2-10-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Bmore Responsive 
+
+
+**API titles**: Bmore Responsive [2020-04-07 20:42:57 -0400
+]
+
+
+**Source** https://github.com/CodeForBaltimore/Bmore-Responsive.git
+
+**OAS File** swagger.json
+
+**Total Commits** 49
+
+**Total First Commit** 2020-04-06 09:43:20 -0400
+
+
+**Total Last Commit** 2022-02-28 19:58:37 -0500
+
+
+**Total API Age (days)** 693
+
+**Total Unique Versions** 13
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-11-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-11-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# BMInventory 
+
+
+**API titles**: BMInventory [2020-02-25 14:02:08 +0200
+] -> AssistedInstall [2020-05-14 17:20:08 +0300
+]
+
+
+**Source** https://github.com/openshift/assisted-service.git
+
+**OAS File** swagger.yaml
+
+**Total Commits** 567
+
+**Total First Commit** 2020-02-25 14:02:08 +0200
+
+
+**Total Last Commit** 2023-06-04 06:12:36 -0400
+
+
+**Total API Age (days)** 1195
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-12-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-12-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# oddscp.com: LIVE Odds HTTP API 
+
+
+**API titles**: oddscp.com: LIVE Odds HTTP API [2020-02-17 09:45:08 +0300
+]
+
+
+**Source** https://github.com/oddscp-api/oddscp-api.github.io.git
+
+**OAS File** openapi.json
+
+**Total Commits** 72
+
+**Total First Commit** 2019-11-08 10:59:04 +0300
+
+
+**Total Last Commit** 2022-03-31 21:48:25 +0400
+
+
+**Total API Age (days)** 874
+
+**Total Unique Versions** 2
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-0-13-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-0-13-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
