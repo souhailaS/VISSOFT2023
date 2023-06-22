@@ -916,3 +916,90 @@
 
 ------------------
 
+# hris 
+
+
+**API titles**: hris [2021-11-01 05:33:17 +0100
+] -> HRIS API [2021-12-16 11:46:23 +0100
+] -> hris [2022-01-04 05:27:56 +0100
+] -> HRIS API [2022-03-24 15:11:16 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** hris.yml
+
+**Total Commits** 212
+
+**Total First Commit** 2021-11-01 05:33:17 +0100
+
+
+**Total Last Commit** 2023-06-16 09:51:10 +0200
+
+
+**Total API Age (days)** 592
+
+**Total Unique Versions** 142
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-hris-7-14-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-hris-7-14-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Issue Tracking API 
+
+
+**API titles**: Issue Tracking API [2023-02-24 10:29:03 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** issue-tracking.yml
+
+**Total Commits** 31
+
+**Total First Commit** 2023-02-24 10:29:03 +0100
+
+
+**Total Last Commit** 2023-06-16 09:51:10 +0200
+
+
+**Total API Age (days)** 112
+
+**Total Unique Versions** 18
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-issue-tracking-8-14-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-issue-tracking-8-14-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Lead API 
+
+
+**API titles**: Lead API [2020-12-22 22:17:21 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** lead.yml
+
+**Total Commits** 269
+
+**Total First Commit** 2020-12-04 08:02:49 +0100
+
+
+**Total Last Commit** 2023-06-16 09:51:10 +0200
+
+
+**Total API Age (days)** 924
+
+**Total Unique Versions** 196
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-lead-9-14-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-lead-9-14-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
