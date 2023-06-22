@@ -781,3 +781,397 @@
 
 ------------------
 
+# Xero Files API 
+
+
+**API titles**: Xero Files API [2020-09-18 12:40:15 -0700
+]
+
+
+**Source** https://github.com/XeroAPI/Xero-OpenAPI.git
+
+**OAS File** xero_files.yaml
+
+**Total Commits** 149
+
+**Total First Commit** 2020-09-18 12:40:15 -0700
+
+
+**Total Last Commit** 2023-06-14 12:40:06 -0600
+
+
+**Total API Age (days)** 999
+
+**Total Unique Versions** 104
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-xero_files-9-7-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-xero_files-9-7-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# ACH API 
+
+
+**API titles**: ACH API [2020-11-05 22:57:43 -0600
+]
+
+
+**Source** https://github.com/moov-io/ach.git
+
+**OAS File** openapi.yaml
+
+**Total Commits** 35
+
+**Total First Commit** 2020-04-22 16:22:12 -0500
+
+
+**Total Last Commit** 2023-04-18 08:48:25 -0500
+
+
+**Total API Age (days)** 1091
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-0-9-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-0-9-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Nightscout API 
+
+
+**API titles**: Nightscout API [2018-05-07 20:31:01 +0300
+]
+
+
+**Source** https://github.com/oljanblixt/blodsocker.git
+
+**OAS File** swagger.json
+
+**Total Commits** 46
+
+**Total First Commit** 2018-05-07 20:31:01 +0300
+
+
+**Total Last Commit** 2020-12-14 10:16:27 +0200
+
+
+**Total API Age (days)** 952
+
+**Total Unique Versions** 36
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-10-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-10-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Nightscout API 
+
+
+**API titles**: Nightscout API [2015-08-28 00:01:31 -0700
+]
+
+
+**Source** https://github.com/oljanblixt/blodsocker.git
+
+**OAS File** swagger.yaml
+
+**Total Commits** 59
+
+**Total First Commit** 2015-08-27 23:02:30 -0700
+
+
+**Total Last Commit** 2020-12-14 10:16:27 +0200
+
+
+**Total API Age (days)** 1935
+
+**Total Unique Versions** 37
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-1-10-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-1-10-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# traccar 
+
+
+**API titles**: traccar [2016-01-09 13:49:21 +1300
+]
+
+
+**Source** https://github.com/halilintar8/traccar2.git
+
+**OAS File** swagger.json
+
+**Total Commits** 69
+
+**Total First Commit** 2016-01-09 13:49:21 +1300
+
+
+**Total Last Commit** 2018-11-17 06:54:23 -0800
+
+
+**Total API Age (days)** 1044
+
+**Total Unique Versions** 14
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-11-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-11-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# external-id-2-osm 
+
+
+**API titles**: external-id-2-osm [2020-12-21 14:06:28 +0200
+] -> id-2-osm [2022-05-22 14:32:44 +0300
+]
+
+
+**Source** https://github.com/MapColonies/id-2-osm.git
+
+**OAS File** openapi3.yaml
+
+**Total Commits** 21
+
+**Total First Commit** 2020-12-21 14:06:28 +0200
+
+
+**Total Last Commit** 2022-08-14 13:00:46 +0300
+
+
+**Total API Age (days)** 601
+
+**Total Unique Versions** 11
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi3-0-13-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi3-0-13-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Megasense data portal API 
+
+
+**API titles**: Megasense data portal API [2020-09-30 11:12:05 +0300
+]
+
+
+**Source** https://github.com/Metatavu/megasense-data-portal-api-spec.git
+
+**OAS File** swagger.yaml
+
+**Total Commits** 156
+
+**Total First Commit** 2020-09-30 11:12:05 +0300
+
+
+**Total Last Commit** 2023-05-09 16:41:47 +0300
+
+
+**Total API Age (days)** 951
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-14-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-14-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# xOpera REST API 
+
+
+**API titles**: xOpera REST API [2020-11-30 15:01:22 +0100
+]
+
+
+**Source** https://github.com/SODALITE-EU/xopera-rest-api.git
+
+**OAS File** openapi-spec.yml
+
+**Total Commits** 42
+
+**Total First Commit** 2020-11-30 15:01:22 +0100
+
+
+**Total Last Commit** 2022-01-12 13:40:01 +0100
+
+
+**Total API Age (days)** 408
+
+**Total Unique Versions** 14
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-spec-0-15-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-spec-0-15-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# trips Api 
+
+
+**API titles**: trips Api [2019-11-14 15:34:59 -0800
+]
+
+
+**Source** https://github.com/nwfsc-fram/TripsApi.git
+
+**OAS File** openapi.yaml
+
+**Total Commits** 35
+
+**Total First Commit** 2019-11-14 15:34:59 -0800
+
+
+**Total Last Commit** 2021-07-02 13:31:57 -0700
+
+
+**Total API Age (days)** 596
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-9-16-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-9-16-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# FINBOURNE Identity Service API 
+
+
+**API titles**: FINBOURNE Identity Service API [2021-05-10 16:22:46 +0000
+]
+
+
+**Source** https://github.com/finbourne/finbourne-identity-sdk-python.git
+
+**OAS File** lydia.json
+
+**Total Commits** 446
+
+**Total First Commit** 2021-05-10 16:22:46 +0000
+
+
+**Total Last Commit** 2023-06-16 15:46:48 +0000
+
+
+**Total API Age (days)** 767
+
+**Total Unique Versions** 439
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-lydia-2-17-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-lydia-2-17-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# In-App Messaging 
+
+
+**API titles**: In-App Messaging [2020-03-11 18:01:11 +0900
+]
+
+
+**Source** https://github.com/rakutentech/ios-inappmessaging.git
+
+**OAS File** openapi.yaml
+
+**Total Commits** 19
+
+**Total First Commit** 2020-03-11 18:01:11 +0900
+
+
+**Total Last Commit** 2023-06-12 14:02:35 +0530
+
+
+**Total API Age (days)** 1188
+
+**Total Unique Versions** 16
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-0-18-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-0-18-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Service 
+
+
+**API titles**: Service [2021-06-11 09:54:23 -0500
+] -> Brighid Commands [2022-01-18 17:13:36 +0000
+]
+
+
+**Source** https://github.com/cythral/brighid-commands-client.git
+
+**OAS File** swagger.json
+
+**Total Commits** 613
+
+**Total First Commit** 2021-06-11 09:54:23 -0500
+
+
+**Total Last Commit** 2023-06-19 14:14:09 +0000
+
+
+**Total API Age (days)** 738
+
+**Total Unique Versions** 601
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-19-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-19-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Common definitions for Candor Api 
+
+
+**API titles**: Common definitions for Candor Api [2021-04-12 01:02:56 -0400
+]
+
+
+**Source** https://github.com/candorfintech/Candor.Api.OpenAPI.git
+
+**OAS File** schemas.yaml
+
+**Total Commits** 27
+
+**Total First Commit** 2021-02-22 16:11:22 -0500
+
+
+**Total Last Commit** 2022-11-09 11:35:20 -0500
+
+
+**Total API Age (days)** 625
+
+**Total Unique Versions** 11
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-schemas-1-20-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-schemas-1-20-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# oddscp.com: LIVE Odds HTTP API 
+
+
+**API titles**: oddscp.com: LIVE Odds HTTP API [2020-02-17 09:45:08 +0300
+]
+
+
+**Source** https://github.com/oddscp-api/oddscp-api.github.io.git
+
+**OAS File** openapi.json
+
+**Total Commits** 72
+
+**Total First Commit** 2019-11-08 10:59:04 +0300
+
+
+**Total Last Commit** 2022-03-31 21:48:25 +0400
+
+
+**Total API Age (days)** 874
+
+**Total Unique Versions** 2
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-0-21-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-0-21-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
