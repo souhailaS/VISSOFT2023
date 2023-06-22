@@ -1431,3 +1431,60 @@
 
 ------------------
 
+# Test d'orientation du COVID19 
+
+
+**API titles**: Test d'orientation du COVID19 [2020-04-04 23:39:32 +0200
+] -> API d'orientation COVID19 [2020-04-05 23:40:59 +0200
+]
+
+
+**Source** https://github.com/Delegation-numerique-en-sante/covid19-algorithme-orientation-api.git
+
+**OAS File** covid19-algorithme-orientation-openapi.yaml
+
+**Total Commits** 19
+
+**Total First Commit** 2020-04-04 23:39:32 +0200
+
+
+**Total Last Commit** 2020-06-10 09:52:43 +0200
+
+
+**Total API Age (days)** 66
+
+**Total Unique Versions** 5
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-covid19-algorithme-orientation-openapi-1-21-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-covid19-algorithme-orientation-openapi-1-21-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# ShipEngine API 
+
+
+**API titles**: ShipEngine API [2018-10-31 12:19:14 -0500
+]
+
+
+**Source** https://github.com/ShipEngine/shipengine-openapi
+
+**OAS File** openapi.json
+
+**Total Commits** 92
+
+**Total First Commit** 2018-10-31 12:19:14 -0500
+
+
+**Total Last Commit** 2023-05-24 20:57:59 +0000
+
+
+**Total API Age (days)** 1666
+
+**Total Unique Versions** 37
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-0-23-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-0-23-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
