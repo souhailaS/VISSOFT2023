@@ -719,3 +719,116 @@
 
 ------------------
 
+# oddscp.com: LIVE Odds HTTP API 
+
+
+**API titles**: oddscp.com: LIVE Odds HTTP API [2020-02-17 09:45:08 +0300
+]
+
+
+**Source** https://github.com/oddscp-api/oddscp-api.github.io.git
+
+**OAS File** openapi.yaml
+
+**Total Commits** 76
+
+**Total First Commit** 2019-11-08 10:59:04 +0300
+
+
+**Total Last Commit** 2022-03-31 21:48:05 +0400
+
+
+**Total API Age (days)** 874
+
+**Total Unique Versions** 2
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-1-13-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-1-13-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Accounting API 
+
+
+**API titles**: Accounting API [2021-08-12 18:49:41 +0200
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** accounting.yml
+
+**Total Commits** 246
+
+**Total First Commit** 2021-08-12 18:49:41 +0200
+
+
+**Total Last Commit** 2023-06-16 09:51:10 +0200
+
+
+**Total API Age (days)** 673
+
+**Total Unique Versions** 164
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-accounting-0-14-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-accounting-0-14-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# ats 
+
+
+**API titles**: ats [2021-10-28 01:50:18 +0200
+] -> ATS API [2022-03-24 15:11:16 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** ats.yml
+
+**Total Commits** 190
+
+**Total First Commit** 2021-10-28 01:50:18 +0200
+
+
+**Total Last Commit** 2023-06-16 09:51:10 +0200
+
+
+**Total API Age (days)** 596
+
+**Total Unique Versions** 143
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-ats-1-14-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-ats-1-14-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# CRM API 
+
+
+**API titles**: CRM API [2020-12-04 08:02:49 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** crm.yml
+
+**Total Commits** 288
+
+**Total First Commit** 2020-12-04 08:02:49 +0100
+
+
+**Total Last Commit** 2023-06-16 09:51:10 +0200
+
+
+**Total API Age (days)** 924
+
+**Total Unique Versions** 192
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-crm-2-14-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-crm-2-14-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
