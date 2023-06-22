@@ -1630,3 +1630,789 @@
 
 ------------------
 
+# Nightscout API 
+
+
+**API titles**: Nightscout API [2015-08-28 00:01:31 -0700
+]
+
+
+**Source** https://github.com/oljanblixt/blodsocker.git
+
+**OAS File** swagger.yaml
+
+**Total Commits** 59
+
+**Total First Commit** 2015-08-27 23:02:30 -0700
+
+
+**Total Last Commit** 2020-12-14 10:16:27 +0200
+
+
+**Total API Age (days)** 1935
+
+**Total Unique Versions** 37
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-1-27-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-1-27-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# GA4GH rnaget API 
+
+
+**API titles**: GA4GH rnaget API [2019-04-05 11:25:42 -0700
+] -> rnaget API [2019-04-11 10:32:39 -0700
+] -> GA4GH rnaget API [2019-04-15 09:41:15 -0700
+] -> rnaget API [2019-04-15 09:55:53 -0700
+] -> RNAget API [2019-10-03 10:38:32 -0700
+]
+
+
+**Source** https://github.com/ga4gh-rnaseq/schema.git
+
+**OAS File** rnaget-openapi.yaml
+
+**Total Commits** 34
+
+**Total First Commit** 2019-04-05 11:25:42 -0700
+
+
+**Total Last Commit** 2023-04-20 14:04:54 -0700
+
+
+**Total API Age (days)** 1476
+
+**Total Unique Versions** 6
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-rnaget-openapi-0-29-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-rnaget-openapi-0-29-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# external-id-2-osm 
+
+
+**API titles**: external-id-2-osm [2020-12-21 14:06:28 +0200
+] -> id-2-osm [2022-05-22 14:32:44 +0300
+]
+
+
+**Source** https://github.com/MapColonies/id-2-osm.git
+
+**OAS File** openapi3.yaml
+
+**Total Commits** 21
+
+**Total First Commit** 2020-12-21 14:06:28 +0200
+
+
+**Total Last Commit** 2022-08-14 13:00:46 +0300
+
+
+**Total API Age (days)** 601
+
+**Total Unique Versions** 11
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi3-0-30-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi3-0-30-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Service 
+
+
+**API titles**: Service [2021-06-11 09:54:23 -0500
+] -> Brighid Commands [2022-01-18 17:13:36 +0000
+]
+
+
+**Source** https://github.com/cythral/brighid-commands-client.git
+
+**OAS File** swagger.json
+
+**Total Commits** 613
+
+**Total First Commit** 2021-06-11 09:54:23 -0500
+
+
+**Total Last Commit** 2023-06-19 14:14:09 +0000
+
+
+**Total API Age (days)** 738
+
+**Total Unique Versions** 601
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-32-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-32-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# BSB-LAN API 
+
+
+**API titles**: BSB-LAN API [2021-01-12 11:13:12 +0100
+]
+
+
+**Source** https://github.com/fredlcore/BSB-LAN.git
+
+**OAS File** openapi.yaml
+
+**Total Commits** 12
+
+**Total First Commit** 2021-01-12 11:13:12 +0100
+
+
+**Total Last Commit** 2022-08-08 22:21:05 +0200
+
+
+**Total API Age (days)** 573
+
+**Total Unique Versions** 3
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-0-33-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-0-33-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Services API 
+
+
+**API titles**: Services API [2018-07-29 13:50:11 +0300
+]
+
+
+**Source** https://github.com/takipi/api-spec.git
+
+**OAS File** services.yaml
+
+**Total Commits** 229
+
+**Total First Commit** 2018-03-11 15:10:48 +0200
+
+
+**Total Last Commit** 2021-06-10 10:05:44 -0400
+
+
+**Total API Age (days)** 1187
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-services-0-34-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-services-0-34-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Auslesen API 
+
+
+**API titles**: Auslesen API [2017-08-16 11:48:04 +0200
+] -> Anträge auslesen API [2017-09-26 13:48:14 +0200
+] -> Anträge API [2020-09-29 09:29:06 +0200
+]
+
+
+**Source** https://github.com/europace/baufismart-antraege-api.git
+
+**OAS File** swagger.json
+
+**Total Commits** 86
+
+**Total First Commit** 2017-08-16 11:48:04 +0200
+
+
+**Total Last Commit** 2023-06-15 10:41:13 +0200
+
+
+**Total API Age (days)** 2129
+
+**Total Unique Versions** 63
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-37-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-37-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Auslesen API 
+
+
+**API titles**: Auslesen API [2017-08-16 11:48:04 +0200
+] -> Anträge auslesen API [2017-09-26 13:48:14 +0200
+] -> Anträge API [2020-09-29 09:29:06 +0200
+]
+
+
+**Source** https://github.com/europace/baufismart-antraege-api.git
+
+**OAS File** swagger.yaml
+
+**Total Commits** 84
+
+**Total First Commit** 2017-08-16 11:48:04 +0200
+
+
+**Total Last Commit** 2023-06-15 10:41:13 +0200
+
+
+**Total API Age (days)** 2129
+
+**Total Unique Versions** 63
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-1-37-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-1-37-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# IPFS Pinning Service API 
+
+
+**API titles**: IPFS Pinning Service API [2020-07-06 23:51:18 +0200
+] -> (WIP) IPFS Pinning Service API [2020-07-08 03:02:02 +0200
+] -> IPFS Pinning Service API [2020-07-23 19:02:24 +0200
+]
+
+
+**Source** https://github.com/ipfs/pinning-services-api-spec.git
+
+**OAS File** ipfs-pinning-service.yaml
+
+**Total Commits** 61
+
+**Total First Commit** 2020-07-06 23:51:18 +0200
+
+
+**Total Last Commit** 2022-08-19 00:18:18 +0200
+
+
+**Total API Age (days)** 773
+
+**Total Unique Versions** 8
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-ipfs-pinning-service-0-39-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-ipfs-pinning-service-0-39-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Artil 
+
+
+**API titles**: Artil [2019-03-22 16:14:38 +0100
+]
+
+
+**Source** https://github.com/simplicitesoftware/module-artil.git
+
+**OAS File** Artil-openapi-3.0.2.yml
+
+**Total Commits** 29
+
+**Total First Commit** 2019-03-22 16:14:38 +0100
+
+
+**Total Last Commit** 2022-06-24 19:08:33 +0200
+
+
+**Total API Age (days)** 1190
+
+**Total Unique Versions** 13
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-Artil-openapi-3-0-40-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-Artil-openapi-3-0-40-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Artil 
+
+
+**API titles**: Artil [2019-03-22 16:14:38 +0100
+]
+
+
+**Source** https://github.com/simplicitesoftware/module-artil.git
+
+**OAS File** Artil-swagger-2.0.yml
+
+**Total Commits** 29
+
+**Total First Commit** 2019-03-22 16:14:38 +0100
+
+
+**Total Last Commit** 2022-06-24 19:08:33 +0200
+
+
+**Total API Age (days)** 1190
+
+**Total Unique Versions** 13
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-Artil-swagger-2-1-40-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-Artil-swagger-2-1-40-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# dlframework.proto 
+
+
+**API titles**: dlframework.proto [2017-06-13 18:32:12 +0100
+] -> CarML DLFramework [2017-06-15 00:13:49 +0100
+] -> dlframework.proto [2017-08-23 12:29:59 +0100
+] -> CarML DLFramework [2017-08-31 19:21:24 -0500
+] -> dlframework.proto [2017-09-05 09:58:42 -0500
+] -> CarML DLFramework [2017-09-23 23:29:09 -0500
+] -> MLModelScope [2018-11-03 11:28:23 -0500
+] -> CarML DLFramework [2018-11-03 11:34:35 -0500
+] -> MLModelScope [2018-11-03 11:43:20 -0500
+]
+
+
+**Source** https://github.com/rai-project/dlframework.git
+
+**OAS File** dlframework.swagger.json
+
+**Total Commits** 84
+
+**Total First Commit** 2017-06-13 18:32:12 +0100
+
+
+**Total Last Commit** 2019-07-14 23:32:45 -0500
+
+
+**Total API Age (days)** 761
+
+**Total Unique Versions** 3
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-dlframework-0-41-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-dlframework-0-41-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Data API 
+
+
+**API titles**: Data API [2017-10-02 18:35:22 +0000
+]
+
+
+**Source** https://github.com/Clever/swagger-api.git
+
+**OAS File** full-v2.yml
+
+**Total Commits** 50
+
+**Total First Commit** 2017-10-02 18:35:22 +0000
+
+
+**Total Last Commit** 2022-06-24 09:52:51 -0700
+
+
+**Total API Age (days)** 1726
+
+**Total Unique Versions** 3
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-full-v2-1-42-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-full-v2-1-42-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Data API 
+
+
+**API titles**: Data API [2020-12-09 13:19:16 -0800
+]
+
+
+**Source** https://github.com/Clever/swagger-api.git
+
+**OAS File** full-v3.yml
+
+**Total Commits** 20
+
+**Total First Commit** 2020-12-03 20:56:39 -0800
+
+
+**Total Last Commit** 2022-07-25 16:40:17 -0700
+
+
+**Total API Age (days)** 599
+
+**Total Unique Versions** 2
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-full-v3-2-42-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-full-v3-2-42-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Events API 
+
+
+**API titles**: Events API [2017-03-28 23:32:48 +0000
+] -> Data API [2017-04-27 16:22:30 -0700
+] -> Events API [2017-05-04 05:56:22 +0000
+]
+
+
+**Source** https://github.com/Clever/swagger-api.git
+
+**OAS File** v1.1-events.yml
+
+**Total Commits** 18
+
+**Total First Commit** 2017-03-28 23:32:48 +0000
+
+
+**Total Last Commit** 2021-03-03 08:10:20 -0800
+
+
+**Total API Age (days)** 1436
+
+**Total Unique Versions** 3
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-v1-3-42-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-v1-3-42-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# clever-api 
+
+
+**API titles**: clever-api [2017-03-16 15:59:21 -0700
+] -> Data API [2017-03-28 23:32:48 +0000
+] -> Events API [2017-04-27 16:22:30 -0700
+] -> Data API [2017-05-04 05:56:22 +0000
+]
+
+
+**Source** https://github.com/Clever/swagger-api.git
+
+**OAS File** v1.1.yml
+
+**Total Commits** 29
+
+**Total First Commit** 2017-03-16 15:41:39 -0700
+
+
+**Total Last Commit** 2022-01-03 17:02:33 -0800
+
+
+**Total API Age (days)** 1754
+
+**Total Unique Versions** 3
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-v1-4-42-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-v1-4-42-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Clever API 
+
+
+**API titles**: Clever API [2017-04-27 16:22:30 -0700
+]
+
+
+**Source** https://github.com/Clever/swagger-api.git
+
+**OAS File** v1.2-client.yml
+
+**Total Commits** 22
+
+**Total First Commit** 2017-03-23 16:47:23 -0700
+
+
+**Total Last Commit** 2022-01-03 17:02:33 -0800
+
+
+**Total API Age (days)** 1747
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-v1-5-42-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-v1-5-42-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Events API 
+
+
+**API titles**: Events API [2017-03-28 23:32:48 +0000
+] -> Data API [2017-04-27 16:22:30 -0700
+] -> Events API [2017-05-04 05:56:22 +0000
+]
+
+
+**Source** https://github.com/Clever/swagger-api.git
+
+**OAS File** v1.2-events.yml
+
+**Total Commits** 20
+
+**Total First Commit** 2017-03-28 23:32:48 +0000
+
+
+**Total Last Commit** 2021-03-03 08:10:20 -0800
+
+
+**Total API Age (days)** 1436
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-v1-6-42-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-v1-6-42-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# clever-api 
+
+
+**API titles**: clever-api [2017-03-16 15:59:21 -0700
+] -> Data API [2017-03-28 23:32:48 +0000
+] -> Events API [2017-04-27 16:22:30 -0700
+] -> Data API [2017-05-04 05:56:22 +0000
+]
+
+
+**Source** https://github.com/Clever/swagger-api.git
+
+**OAS File** v1.2.yml
+
+**Total Commits** 32
+
+**Total First Commit** 2017-03-16 15:41:39 -0700
+
+
+**Total Last Commit** 2022-01-03 17:02:33 -0800
+
+
+**Total API Age (days)** 1754
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-v1-7-42-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-v1-7-42-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Clever API 
+
+
+**API titles**: Clever API [2017-10-10 16:47:40 +0000
+]
+
+
+**Source** https://github.com/Clever/swagger-api.git
+
+**OAS File** v2.0-client.yml
+
+**Total Commits** 15
+
+**Total First Commit** 2017-10-10 16:47:40 +0000
+
+
+**Total Last Commit** 2020-03-21 09:40:23 -0700
+
+
+**Total API Age (days)** 893
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-v2-8-42-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-v2-8-42-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Events API 
+
+
+**API titles**: Events API [2017-10-10 16:47:40 +0000
+]
+
+
+**Source** https://github.com/Clever/swagger-api.git
+
+**OAS File** v2.0-events.yml
+
+**Total Commits** 18
+
+**Total First Commit** 2017-10-10 16:47:40 +0000
+
+
+**Total Last Commit** 2021-03-03 08:11:04 -0800
+
+
+**Total API Age (days)** 1240
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-v2-9-42-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-v2-9-42-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Data API 
+
+
+**API titles**: Data API [2017-10-10 16:47:40 +0000
+]
+
+
+**Source** https://github.com/Clever/swagger-api.git
+
+**OAS File** v2.0.yml
+
+**Total Commits** 21
+
+**Total First Commit** 2017-10-10 16:47:40 +0000
+
+
+**Total Last Commit** 2022-01-03 17:02:33 -0800
+
+
+**Total API Age (days)** 1546
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-v2-10-42-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-v2-10-42-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Clever API 
+
+
+**API titles**: Clever API [2019-03-19 15:57:40 -0700
+]
+
+
+**Source** https://github.com/Clever/swagger-api.git
+
+**OAS File** v2.1-client.yml
+
+**Total Commits** 24
+
+**Total First Commit** 2019-03-19 15:57:40 -0700
+
+
+**Total Last Commit** 2022-06-24 09:52:51 -0700
+
+
+**Total API Age (days)** 1193
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-v2-11-42-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-v2-11-42-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Events API 
+
+
+**API titles**: Events API [2019-03-19 15:57:40 -0700
+]
+
+
+**Source** https://github.com/Clever/swagger-api.git
+
+**OAS File** v2.1-events.yml
+
+**Total Commits** 19
+
+**Total First Commit** 2019-03-19 15:57:40 -0700
+
+
+**Total Last Commit** 2021-03-03 08:11:04 -0800
+
+
+**Total API Age (days)** 715
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-v2-12-42-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-v2-12-42-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Data API 
+
+
+**API titles**: Data API [2019-03-19 15:57:40 -0700
+]
+
+
+**Source** https://github.com/Clever/swagger-api.git
+
+**OAS File** v2.1.yml
+
+**Total Commits** 25
+
+**Total First Commit** 2019-03-19 15:57:40 -0700
+
+
+**Total Last Commit** 2022-06-24 09:52:51 -0700
+
+
+**Total API Age (days)** 1193
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-v2-13-42-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-v2-13-42-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Clever API 
+
+
+**API titles**: Clever API [2020-12-09 13:19:16 -0800
+]
+
+
+**Source** https://github.com/Clever/swagger-api.git
+
+**OAS File** v3.0-client.yml
+
+**Total Commits** 20
+
+**Total First Commit** 2020-12-03 20:56:39 -0800
+
+
+**Total Last Commit** 2022-07-25 16:40:17 -0700
+
+
+**Total API Age (days)** 599
+
+**Total Unique Versions** 2
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-v3-14-42-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-v3-14-42-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Data API 
+
+
+**API titles**: Data API [2020-12-08 09:52:59 -0800
+]
+
+
+**Source** https://github.com/Clever/swagger-api.git
+
+**OAS File** v3.0.yml
+
+**Total Commits** 19
+
+**Total First Commit** 2020-12-03 20:56:39 -0800
+
+
+**Total Last Commit** 2022-06-24 09:52:51 -0700
+
+
+**Total API Age (days)** 567
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-v3-16-42-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-v3-16-42-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
