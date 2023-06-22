@@ -379,3 +379,230 @@
 
 ------------------
 
+# Common definitions for Candor Api 
+
+
+**API titles**: Common definitions for Candor Api [2021-04-12 01:02:56 -0400
+]
+
+
+**Source** https://github.com/candorfintech/Candor.Api.OpenAPI.git
+
+**OAS File** schemas.yaml
+
+**Total Commits** 27
+
+**Total First Commit** 2021-02-22 16:11:22 -0500
+
+
+**Total Last Commit** 2022-11-09 11:35:20 -0500
+
+
+**Total API Age (days)** 625
+
+**Total Unique Versions** 11
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-schemas-1-4-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-schemas-1-4-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# BMInventory 
+
+
+**API titles**: BMInventory [2020-02-25 14:02:08 +0200
+] -> AssistedInstall [2020-05-14 17:20:08 +0300
+]
+
+
+**Source** https://github.com/filanov/bm-inventory.git
+
+**OAS File** swagger.yaml
+
+**Total Commits** 132
+
+**Total First Commit** 2020-02-25 14:02:08 +0200
+
+
+**Total Last Commit** 2020-07-29 01:06:49 +0300
+
+
+**Total API Age (days)** 154
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-5-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-5-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Nightscout API 
+
+
+**API titles**: Nightscout API [2018-05-07 20:31:01 +0300
+]
+
+
+**Source** https://github.com/andreabove/andrea.git
+
+**OAS File** swagger.json
+
+**Total Commits** 45
+
+**Total First Commit** 2018-05-07 20:31:01 +0300
+
+
+**Total Last Commit** 2020-11-15 11:29:01 +0200
+
+
+**Total API Age (days)** 923
+
+**Total Unique Versions** 35
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-6-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-6-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Nightscout API 
+
+
+**API titles**: Nightscout API [2015-08-28 00:01:31 -0700
+]
+
+
+**Source** https://github.com/andreabove/andrea.git
+
+**OAS File** swagger.yaml
+
+**Total Commits** 58
+
+**Total First Commit** 2015-08-27 23:02:30 -0700
+
+
+**Total Last Commit** 2020-11-15 11:29:01 +0200
+
+
+**Total API Age (days)** 1906
+
+**Total Unique Versions** 36
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-1-6-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-1-6-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# traccar 
+
+
+**API titles**: traccar [2016-01-09 13:49:21 +1300
+]
+
+
+**Source** https://github.com/halilintar8/traccar2.git
+
+**OAS File** swagger.json
+
+**Total Commits** 69
+
+**Total First Commit** 2016-01-09 13:49:21 +1300
+
+
+**Total Last Commit** 2018-11-17 06:54:23 -0800
+
+
+**Total API Age (days)** 1044
+
+**Total Unique Versions** 14
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-7-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-7-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# FINBOURNE Identity Service API 
+
+
+**API titles**: FINBOURNE Identity Service API [2021-05-10 16:22:46 +0000
+]
+
+
+**Source** https://github.com/finbourne/finbourne-identity-sdk-python.git
+
+**OAS File** lydia.json
+
+**Total Commits** 446
+
+**Total First Commit** 2021-05-10 16:22:46 +0000
+
+
+**Total Last Commit** 2023-06-16 15:46:48 +0000
+
+
+**Total API Age (days)** 767
+
+**Total Unique Versions** 439
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-lydia-2-9-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-lydia-2-9-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Sub-API-Spec 
+
+
+**API titles**: Sub-API-Spec [2018-11-03 12:38:06 +0100
+]
+
+
+**Source** https://github.com/wwi16ama/api_spec.git
+
+**OAS File** members.yaml
+
+**Total Commits** 25
+
+**Total First Commit** 2018-10-29 15:31:32 +0100
+
+
+**Total Last Commit** 2019-04-16 16:57:46 +0200
+
+
+**Total API Age (days)** 169
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-members-0-10-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-members-0-10-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# WWI16AMA - Spec 
+
+
+**API titles**: WWI16AMA - Spec [2018-09-10 11:48:45 +0200
+] -> will-code-for-food-and-water - Spec [2018-11-03 13:07:09 +0100
+] -> WWI16AMA - Spec [2019-03-12 13:48:57 +0100
+]
+
+
+**Source** https://github.com/wwi16ama/api_spec.git
+
+**OAS File** openapi.yaml
+
+**Total Commits** 84
+
+**Total First Commit** 2018-09-10 09:44:13 +0200
+
+
+**Total Last Commit** 2019-05-02 14:33:42 +0200
+
+
+**Total API Age (days)** 234
+
+**Total Unique Versions** 24
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-1-10-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-1-10-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
