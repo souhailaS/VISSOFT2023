@@ -1,31 +1,3 @@
-# Megasense data portal API 
-
-
-**API titles**: Megasense data portal API [2020-09-30 11:12:05 +0300
-]
-
-
-**Source** https://github.com/Metatavu/megasense-data-portal-api-spec.git
-
-**OAS File** swagger.yaml
-
-**Total Commits** 156
-
-**Total First Commit** 2020-09-30 11:12:05 +0300
-
-
-**Total Last Commit** 2023-05-09 16:41:47 +0300
-
-
-**Total API Age (days)** 951
-
-**Total Unique Versions** 1
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-0-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-0-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
 # UE Application Interface API 
 
 
@@ -50,8 +22,8 @@
 
 **Total Unique Versions** 5
 
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-UEAppInterfaceApi-0-1-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-UEAppInterfaceApi-0-1-api.html" width="100%" height="500px"></iframe></div>
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-UEAppInterfaceApi-UE Application Interface API-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-UEAppInterfaceApi-UE Application Interface API-api.html" width="100%" height="500px"></iframe></div>
 
 ------------------
 
@@ -79,8 +51,8 @@
 
 **Total Unique Versions** 5
 
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-UEAppInterfaceApi-1-1-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-UEAppInterfaceApi-1-1-api.html" width="100%" height="500px"></iframe></div>
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-UEAppInterfaceApi-UE Application Interface API-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-UEAppInterfaceApi-UE Application Interface API-api.html" width="100%" height="500px"></iframe></div>
 
 ------------------
 
@@ -91,24 +63,24 @@
 ]
 
 
-**Source** https://github.com/alijayne/https-github.com-alijayne-cgm-remote-monitor.git
+**Source** https://github.com/oljanblixt/blodsocker.git
 
 **OAS File** swagger.json
 
-**Total Commits** 43
+**Total Commits** 46
 
 **Total First Commit** 2018-05-07 20:31:01 +0300
 
 
-**Total Last Commit** 2020-09-28 09:36:21 +0300
+**Total Last Commit** 2020-12-14 10:16:27 +0200
 
 
-**Total API Age (days)** 875
+**Total API Age (days)** 952
 
-**Total Unique Versions** 33
+**Total Unique Versions** 36
 
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-2-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-2-api.html" width="100%" height="500px"></iframe></div>
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-Nightscout API-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-Nightscout API-api.html" width="100%" height="500px"></iframe></div>
 
 ------------------
 
@@ -119,24 +91,108 @@
 ]
 
 
-**Source** https://github.com/alijayne/https-github.com-alijayne-cgm-remote-monitor.git
+**Source** https://github.com/oljanblixt/blodsocker.git
 
 **OAS File** swagger.yaml
 
-**Total Commits** 56
+**Total Commits** 59
 
 **Total First Commit** 2015-08-27 23:02:30 -0700
 
 
-**Total Last Commit** 2020-09-28 09:36:21 +0300
+**Total Last Commit** 2020-12-14 10:16:27 +0200
 
 
-**Total API Age (days)** 1858
+**Total API Age (days)** 1935
 
-**Total Unique Versions** 34
+**Total Unique Versions** 37
 
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-1-2-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-1-2-api.html" width="100%" height="500px"></iframe></div>
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-Nightscout API-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-Nightscout API-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# SunRocks API 
+
+
+**API titles**: SunRocks API [2017-08-02 12:20:45 +0200
+]
+
+
+**Source** https://github.com/trigo-at/sunrocks-public-api-docs
+
+**OAS File** public-api.yaml
+
+**Total Commits** 24
+
+**Total First Commit** 2017-08-02 12:20:45 +0200
+
+
+**Total Last Commit** 2023-05-17 09:19:38 +0200
+
+
+**Total API Age (days)** 2114
+
+**Total Unique Versions** 5
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-public-api-SunRocks API-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-public-api-SunRocks API-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Artil 
+
+
+**API titles**: Artil [2019-03-22 16:14:38 +0100
+]
+
+
+**Source** https://github.com/simplicitesoftware/module-artil.git
+
+**OAS File** Artil-openapi-3.0.2.yml
+
+**Total Commits** 29
+
+**Total First Commit** 2019-03-22 16:14:38 +0100
+
+
+**Total Last Commit** 2022-06-24 19:08:33 +0200
+
+
+**Total API Age (days)** 1190
+
+**Total Unique Versions** 13
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-Artil-openapi-3-Artil-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-Artil-openapi-3-Artil-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Artil 
+
+
+**API titles**: Artil [2019-03-22 16:14:38 +0100
+]
+
+
+**Source** https://github.com/simplicitesoftware/module-artil.git
+
+**OAS File** Artil-swagger-2.0.yml
+
+**Total Commits** 29
+
+**Total First Commit** 2019-03-22 16:14:38 +0100
+
+
+**Total Last Commit** 2022-06-24 19:08:33 +0200
+
+
+**Total API Age (days)** 1190
+
+**Total Unique Versions** 13
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-Artil-swagger-2-Artil-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-Artil-swagger-2-Artil-api.html" width="100%" height="500px"></iframe></div>
 
 ------------------
 
@@ -163,362 +219,210 @@
 
 **Total Unique Versions** 16
 
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-0-5-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-0-5-api.html" width="100%" height="500px"></iframe></div>
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-In-App Messaging-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-In-App Messaging-api.html" width="100%" height="500px"></iframe></div>
 
 ------------------
 
-# Xero AppStore API 
+# 人材DB 
 
 
-**API titles**: Xero AppStore API [2021-08-09 13:19:28 -0600
+**API titles**: 人材DB [2020-07-09 10:19:17 +0900
 ]
 
 
-**Source** https://github.com/XeroAPI/Xero-OpenAPI.git
+**Source** https://github.com/ut-career/talent-db-api-spec.git
 
-**OAS File** xero-app-store.yaml
-
-**Total Commits** 68
-
-**Total First Commit** 2021-08-09 13:19:28 -0600
-
-
-**Total Last Commit** 2023-06-14 12:40:06 -0600
-
-
-**Total API Age (days)** 674
-
-**Total Unique Versions** 54
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-xero-app-store-0-6-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-xero-app-store-0-6-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# Xero Finance API 
-
-
-**API titles**: Xero Finance API [2021-08-13 11:58:00 -0600
-]
-
-
-**Source** https://github.com/XeroAPI/Xero-OpenAPI.git
-
-**OAS File** xero-finance.yaml
-
-**Total Commits** 91
-
-**Total First Commit** 2021-08-13 11:58:00 -0600
-
-
-**Total Last Commit** 2023-06-14 12:40:06 -0600
-
-
-**Total API Age (days)** 670
-
-**Total Unique Versions** 54
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-xero-finance-1-6-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-xero-finance-1-6-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# Xero oAuth 2 identity service 
-
-
-**API titles**: Xero oAuth 2 identity service [2020-09-18 12:40:15 -0700
-] -> Xero OAuth 2 identity service [2021-01-22 11:22:22 +1300
-] -> Xero OAuth 2 Identity Service API [2021-01-22 15:03:51 +1300
-] -> Xero oAuth 2 identity service [2021-01-22 16:31:30 -0800
-] -> Xero OAuth 2 Identity Service API [2021-01-29 12:58:07 -0800
-] -> Xero oAuth 2 identity service [2021-01-29 13:49:01 -0800
-] -> Xero OAuth 2 Identity Service API [2021-02-03 10:57:21 -0800
-]
-
-
-**Source** https://github.com/XeroAPI/Xero-OpenAPI.git
-
-**OAS File** xero-identity.yaml
-
-**Total Commits** 109
-
-**Total First Commit** 2020-09-18 12:40:15 -0700
-
-
-**Total Last Commit** 2023-06-14 12:40:06 -0600
-
-
-**Total API Age (days)** 999
-
-**Total Unique Versions** 102
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-xero-identity-2-6-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-xero-identity-2-6-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# Xero Payroll AU 
-
-
-**API titles**: Xero Payroll AU [2020-09-18 12:40:15 -0700
-] -> Xero Payroll AU API [2021-01-26 12:27:58 +1300
-] -> Xero Payroll AU [2021-01-29 12:42:56 -0800
-] -> Xero Payroll AU API [2021-01-29 12:58:07 -0800
-] -> Xero Payroll AU [2021-01-29 13:49:01 -0800
-] -> Xero Payroll AU API [2021-02-03 08:39:19 +1300
-]
-
-
-**Source** https://github.com/XeroAPI/Xero-OpenAPI.git
-
-**OAS File** xero-payroll-au.yaml
-
-**Total Commits** 153
-
-**Total First Commit** 2020-09-18 12:40:15 -0700
-
-
-**Total Last Commit** 2023-06-14 12:40:06 -0600
-
-
-**Total API Age (days)** 999
-
-**Total Unique Versions** 109
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-xero-payroll-au-3-6-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-xero-payroll-au-3-6-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# Xero Payroll NZ 
-
-
-**API titles**: Xero Payroll NZ [2020-09-18 12:40:15 -0700
-]
-
-
-**Source** https://github.com/XeroAPI/Xero-OpenAPI.git
-
-**OAS File** xero-payroll-nz.yaml
-
-**Total Commits** 137
-
-**Total First Commit** 2020-09-18 12:40:15 -0700
-
-
-**Total Last Commit** 2023-06-14 12:40:06 -0600
-
-
-**Total API Age (days)** 999
-
-**Total Unique Versions** 104
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-xero-payroll-nz-4-6-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-xero-payroll-nz-4-6-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# Xero Payroll UK 
-
-
-**API titles**: Xero Payroll UK [2020-09-18 12:40:15 -0700
-]
-
-
-**Source** https://github.com/XeroAPI/Xero-OpenAPI.git
-
-**OAS File** xero-payroll-uk.yaml
-
-**Total Commits** 131
-
-**Total First Commit** 2020-09-18 12:40:15 -0700
-
-
-**Total Last Commit** 2023-06-14 12:40:06 -0600
-
-
-**Total API Age (days)** 999
-
-**Total Unique Versions** 103
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-xero-payroll-uk-5-6-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-xero-payroll-uk-5-6-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# Xero Projects API 
-
-
-**API titles**: Xero Projects API [2020-11-06 15:12:22 +1300
-]
-
-
-**Source** https://github.com/XeroAPI/Xero-OpenAPI.git
-
-**OAS File** xero-projects.yaml
-
-**Total Commits** 125
-
-**Total First Commit** 2020-09-18 12:40:15 -0700
-
-
-**Total Last Commit** 2023-06-14 12:40:06 -0600
-
-
-**Total API Age (days)** 999
-
-**Total Unique Versions** 93
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-xero-projects-6-6-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-xero-projects-6-6-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# Xero Assets API 
-
-
-**API titles**: Xero Assets API [2020-09-18 12:40:15 -0700
-]
-
-
-**Source** https://github.com/XeroAPI/Xero-OpenAPI.git
-
-**OAS File** xero_assets.yaml
-
-**Total Commits** 121
-
-**Total First Commit** 2020-09-18 12:40:15 -0700
-
-
-**Total Last Commit** 2023-06-14 12:40:06 -0600
-
-
-**Total API Age (days)** 999
-
-**Total Unique Versions** 102
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-xero_assets-7-6-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-xero_assets-7-6-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# Bank Feeds API 
-
-
-**API titles**: Bank Feeds API [2020-09-18 12:40:15 -0700
-] -> Xero Bank Feeds API [2021-01-21 14:20:06 +1300
-] -> Bank Feeds API [2021-01-22 16:31:30 -0800
-] -> Xero Bank Feeds API [2021-01-29 12:58:07 -0800
-] -> Bank Feeds API [2021-01-29 13:49:01 -0800
-] -> Xero Bank Feeds API [2021-02-03 08:39:19 +1300
-]
-
-
-**Source** https://github.com/XeroAPI/Xero-OpenAPI.git
-
-**OAS File** xero_bankfeeds.yaml
-
-**Total Commits** 114
-
-**Total First Commit** 2020-09-18 12:40:15 -0700
-
-
-**Total Last Commit** 2023-06-14 12:40:06 -0600
-
-
-**Total API Age (days)** 999
-
-**Total Unique Versions** 101
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-xero_bankfeeds-8-6-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-xero_bankfeeds-8-6-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# Xero Files API 
-
-
-**API titles**: Xero Files API [2020-09-18 12:40:15 -0700
-]
-
-
-**Source** https://github.com/XeroAPI/Xero-OpenAPI.git
-
-**OAS File** xero_files.yaml
+**OAS File** spec.yaml
 
 **Total Commits** 149
 
-**Total First Commit** 2020-09-18 12:40:15 -0700
+**Total First Commit** 2020-07-09 10:19:17 +0900
 
 
-**Total Last Commit** 2023-06-14 12:40:06 -0600
+**Total Last Commit** 2021-11-05 14:49:28 +0900
 
 
-**Total API Age (days)** 999
+**Total API Age (days)** 484
 
-**Total Unique Versions** 104
+**Total Unique Versions** 1
 
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-xero_files-9-6-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-xero_files-9-6-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# FINBOURNE Identity Service API 
-
-
-**API titles**: FINBOURNE Identity Service API [2021-05-10 16:22:46 +0000
-]
-
-
-**Source** https://github.com/finbourne/finbourne-identity-sdk-python.git
-
-**OAS File** lydia.json
-
-**Total Commits** 446
-
-**Total First Commit** 2021-05-10 16:22:46 +0000
-
-
-**Total Last Commit** 2023-06-16 15:46:48 +0000
-
-
-**Total API Age (days)** 767
-
-**Total Unique Versions** 439
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-lydia-2-8-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-lydia-2-8-api.html" width="100%" height="500px"></iframe></div>
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-spec-人材DB-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-spec-人材DB-api.html" width="100%" height="500px"></iframe></div>
 
 ------------------
 
-# IPFS Pinning Service API 
+# Jetpack Start Licensing API 
 
 
-**API titles**: IPFS Pinning Service API [2020-07-06 23:51:18 +0200
-] -> (WIP) IPFS Pinning Service API [2020-07-08 03:02:02 +0200
-] -> IPFS Pinning Service API [2020-07-23 19:02:24 +0200
+**API titles**: Jetpack Start Licensing API [2020-08-13 14:45:45 +0300
+] -> Jetpack Licensing API [2020-09-10 16:55:19 +0300
 ]
 
 
-**Source** https://github.com/ipfs/pinning-services-api-spec.git
+**Source** https://github.com/Automattic/jetpack-licensing-api.git
 
-**OAS File** ipfs-pinning-service.yaml
+**OAS File** spec.yml
 
-**Total Commits** 61
+**Total Commits** 27
 
-**Total First Commit** 2020-07-06 23:51:18 +0200
-
-
-**Total Last Commit** 2022-08-19 00:18:18 +0200
+**Total First Commit** 2020-08-13 14:45:45 +0300
 
 
-**Total API Age (days)** 773
+**Total Last Commit** 2022-06-21 17:37:17 +0300
+
+
+**Total API Age (days)** 677
 
 **Total Unique Versions** 8
 
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-ipfs-pinning-service-0-10-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-ipfs-pinning-service-0-10-api.html" width="100%" height="500px"></iframe></div>
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-spec-Jetpack Start Licensing API-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-spec-Jetpack Start Licensing API-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# OpenFairDB API 
+
+
+**API titles**: OpenFairDB API [2018-12-12 18:37:26 +0100
+]
+
+
+**Source** https://github.com/kartevonmorgen/openfairdb.git
+
+**OAS File** openapi.yaml
+
+**Total Commits** 144
+
+**Total First Commit** 2018-12-12 18:37:26 +0100
+
+
+**Total Last Commit** 2023-03-24 13:56:59 +0000
+
+
+**Total API Age (days)** 1563
+
+**Total Unique Versions** 52
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-OpenFairDB API-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-OpenFairDB API-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# API Multicaja (Alpha) 
+
+
+**API titles**: API Multicaja (Alpha) [2018-03-08 14:57:42 -0300
+]
+
+
+**Source** https://github.com/Multicaja/api
+
+**OAS File** api-prepaid.yml
+
+**Total Commits** 106
+
+**Total First Commit** 2018-03-08 14:57:42 -0300
+
+
+**Total Last Commit** 2019-07-29 17:10:51 -0400
+
+
+**Total API Age (days)** 508
+
+**Total Unique Versions** 6
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-api-prepaid-API Multicaja (Alpha)-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-api-prepaid-API Multicaja (Alpha)-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# ZMON SLO Metrics 
+
+
+**API titles**: ZMON SLO Metrics [2016-09-21 14:32:22 +0200
+] -> ZMON service level reporting [2017-08-31 18:13:14 +0200
+]
+
+
+**Source** https://github.com/zalando-zmon/service-level-reporting.git
+
+**OAS File** swagger.yaml
+
+**Total Commits** 23
+
+**Total First Commit** 2016-09-21 14:32:22 +0200
+
+
+**Total Last Commit** 2020-02-04 14:22:07 +0100
+
+
+**Total API Age (days)** 1231
+
+**Total Unique Versions** 3
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-ZMON SLO Metrics-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-ZMON SLO Metrics-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Auslesen API 
+
+
+**API titles**: Auslesen API [2017-08-16 11:48:04 +0200
+] -> Anträge auslesen API [2017-09-26 13:48:14 +0200
+] -> Anträge API [2020-09-29 09:29:06 +0200
+]
+
+
+**Source** https://github.com/europace/baufismart-antraege-api.git
+
+**OAS File** swagger.json
+
+**Total Commits** 86
+
+**Total First Commit** 2017-08-16 11:48:04 +0200
+
+
+**Total Last Commit** 2023-06-15 10:41:13 +0200
+
+
+**Total API Age (days)** 2129
+
+**Total Unique Versions** 63
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-Auslesen API-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-Auslesen API-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Auslesen API 
+
+
+**API titles**: Auslesen API [2017-08-16 11:48:04 +0200
+] -> Anträge auslesen API [2017-09-26 13:48:14 +0200
+] -> Anträge API [2020-09-29 09:29:06 +0200
+]
+
+
+**Source** https://github.com/europace/baufismart-antraege-api.git
+
+**OAS File** swagger.yaml
+
+**Total Commits** 84
+
+**Total First Commit** 2017-08-16 11:48:04 +0200
+
+
+**Total Last Commit** 2023-06-15 10:41:13 +0200
+
+
+**Total API Age (days)** 2129
+
+**Total Unique Versions** 63
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-Auslesen API-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-Auslesen API-api.html" width="100%" height="500px"></iframe></div>
 
 ------------------
 
@@ -545,8 +449,8 @@
 
 **Total Unique Versions** 164
 
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-accounting-0-12-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-accounting-0-12-api.html" width="100%" height="500px"></iframe></div>
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-accounting-Accounting API-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-accounting-Accounting API-api.html" width="100%" height="500px"></iframe></div>
 
 ------------------
 
@@ -574,8 +478,8 @@
 
 **Total Unique Versions** 143
 
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-ats-1-12-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-ats-1-12-api.html" width="100%" height="500px"></iframe></div>
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-ats-ats-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-ats-ats-api.html" width="100%" height="500px"></iframe></div>
 
 ------------------
 
@@ -602,8 +506,8 @@
 
 **Total Unique Versions** 192
 
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-crm-2-12-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-crm-2-12-api.html" width="100%" height="500px"></iframe></div>
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-crm-CRM API-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-crm-CRM API-api.html" width="100%" height="500px"></iframe></div>
 
 ------------------
 
@@ -630,8 +534,8 @@
 
 **Total Unique Versions** 141
 
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-customer-support-3-12-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-customer-support-3-12-api.html" width="100%" height="500px"></iframe></div>
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-customer-support-Customer Support-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-customer-support-Customer Support-api.html" width="100%" height="500px"></iframe></div>
 
 ------------------
 
@@ -658,8 +562,8 @@
 
 **Total Unique Versions** 25
 
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-ecommerce-4-12-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-ecommerce-4-12-api.html" width="100%" height="500px"></iframe></div>
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-ecommerce-Ecommerce API-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-ecommerce-Ecommerce API-api.html" width="100%" height="500px"></iframe></div>
 
 ------------------
 
@@ -686,8 +590,8 @@
 
 **Total Unique Versions** 158
 
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-file-storage-6-12-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-file-storage-6-12-api.html" width="100%" height="500px"></iframe></div>
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-file-storage-File storage API-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-file-storage-File storage API-api.html" width="100%" height="500px"></iframe></div>
 
 ------------------
 
@@ -717,8 +621,8 @@
 
 **Total Unique Versions** 142
 
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-hris-7-12-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-hris-7-12-api.html" width="100%" height="500px"></iframe></div>
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-hris-hris-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-hris-hris-api.html" width="100%" height="500px"></iframe></div>
 
 ------------------
 
@@ -745,8 +649,8 @@
 
 **Total Unique Versions** 18
 
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-issue-tracking-8-12-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-issue-tracking-8-12-api.html" width="100%" height="500px"></iframe></div>
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-issue-tracking-Issue Tracking API-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-issue-tracking-Issue Tracking API-api.html" width="100%" height="500px"></iframe></div>
 
 ------------------
 
@@ -773,237 +677,8 @@
 
 **Total Unique Versions** 196
 
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-lead-9-12-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-lead-9-12-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# pos 
-
-
-**API titles**: pos [2021-12-04 01:15:27 +0100
-] -> POS API [2022-03-24 15:11:16 +0100
-]
-
-
-**Source** https://github.com/apideck-libraries/openapi-specs.git
-
-**OAS File** pos.yml
-
-**Total Commits** 168
-
-**Total First Commit** 2021-12-04 01:15:27 +0100
-
-
-**Total Last Commit** 2023-06-16 09:51:10 +0200
-
-
-**Total API Age (days)** 559
-
-**Total Unique Versions** 130
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-pos-10-12-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-pos-10-12-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# Proxy API 
-
-
-**API titles**: Proxy API [2021-05-28 21:32:46 +0200
-]
-
-
-**Source** https://github.com/apideck-libraries/openapi-specs.git
-
-**OAS File** proxy.yml
-
-**Total Commits** 195
-
-**Total First Commit** 2021-05-28 21:31:22 +0200
-
-
-**Total Last Commit** 2023-06-07 17:16:39 +0200
-
-
-**Total API Age (days)** 740
-
-**Total Unique Versions** 180
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-proxy-11-12-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-proxy-11-12-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# sms 
-
-
-**API titles**: sms [2021-10-25 07:39:04 +0200
-] -> SMS API [2022-03-24 15:11:16 +0100
-]
-
-
-**Source** https://github.com/apideck-libraries/openapi-specs.git
-
-**OAS File** sms.yml
-
-**Total Commits** 165
-
-**Total First Commit** 2021-10-25 07:39:04 +0200
-
-
-**Total Last Commit** 2023-06-07 17:16:39 +0200
-
-
-**Total API Age (days)** 590
-
-**Total Unique Versions** 144
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-sms-12-12-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-sms-12-12-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# Vault API 
-
-
-**API titles**: Vault API [2020-12-04 08:02:49 +0100
-]
-
-
-**Source** https://github.com/apideck-libraries/openapi-specs.git
-
-**OAS File** vault.yml
-
-**Total Commits** 321
-
-**Total First Commit** 2020-12-04 08:02:49 +0100
-
-
-**Total Last Commit** 2023-06-07 17:16:39 +0200
-
-
-**Total API Age (days)** 915
-
-**Total Unique Versions** 191
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-vault-13-12-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-vault-13-12-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# Webhook API 
-
-
-**API titles**: Webhook API [2021-09-02 16:35:30 +0200
-]
-
-
-**Source** https://github.com/apideck-libraries/openapi-specs.git
-
-**OAS File** webhook.yml
-
-**Total Commits** 241
-
-**Total First Commit** 2021-09-02 16:35:30 +0200
-
-
-**Total Last Commit** 2023-06-07 17:16:39 +0200
-
-
-**Total API Age (days)** 643
-
-**Total Unique Versions** 160
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-webhook-14-12-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-webhook-14-12-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# BMInventory 
-
-
-**API titles**: BMInventory [2020-02-25 14:02:08 +0200
-] -> AssistedInstall [2020-05-14 17:20:08 +0300
-]
-
-
-**Source** https://github.com/filanov/bm-inventory.git
-
-**OAS File** swagger.yaml
-
-**Total Commits** 132
-
-**Total First Commit** 2020-02-25 14:02:08 +0200
-
-
-**Total Last Commit** 2020-07-29 01:06:49 +0300
-
-
-**Total API Age (days)** 154
-
-**Total Unique Versions** 1
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-14-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-14-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# BMInventory 
-
-
-**API titles**: BMInventory [2020-02-25 14:02:08 +0200
-] -> AssistedInstall [2020-05-14 17:20:08 +0300
-]
-
-
-**Source** https://github.com/openshift/assisted-service.git
-
-**OAS File** swagger.yaml
-
-**Total Commits** 567
-
-**Total First Commit** 2020-02-25 14:02:08 +0200
-
-
-**Total Last Commit** 2023-06-04 06:12:36 -0400
-
-
-**Total API Age (days)** 1195
-
-**Total Unique Versions** 1
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-16-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-16-api.html" width="100%" height="500px"></iframe></div>
-
-------------------
-
-# Test d'orientation du COVID19 
-
-
-**API titles**: Test d'orientation du COVID19 [2020-04-04 23:39:32 +0200
-] -> API d'orientation COVID19 [2020-04-05 23:40:59 +0200
-]
-
-
-**Source** https://github.com/Delegation-numerique-en-sante/covid19-algorithme-orientation-api.git
-
-**OAS File** covid19-algorithme-orientation-openapi.json
-
-**Total Commits** 19
-
-**Total First Commit** 2020-04-04 23:39:32 +0200
-
-
-**Total Last Commit** 2020-06-10 09:52:43 +0200
-
-
-**Total API Age (days)** 66
-
-**Total Unique Versions** 5
-
-[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-covid19-algorithme-orientation-openapi-0-17-api.html)
-<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-covid19-algorithme-orientation-openapi-0-17-api.html" width="100%" height="500px"></iframe></div>
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-lead-Lead API-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-lead-Lead API-api.html" width="100%" height="500px"></iframe></div>
 
 ------------------
 
