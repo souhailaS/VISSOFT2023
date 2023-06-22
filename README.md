@@ -832,3 +832,87 @@
 
 ------------------
 
+# Customer Support 
+
+
+**API titles**: Customer Support [2021-10-20 00:44:23 +0200
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** customer-support.yml
+
+**Total Commits** 171
+
+**Total First Commit** 2021-10-20 00:44:23 +0200
+
+
+**Total Last Commit** 2023-05-15 17:07:04 +0200
+
+
+**Total API Age (days)** 573
+
+**Total Unique Versions** 141
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-customer-support-3-14-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-customer-support-3-14-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Ecommerce API 
+
+
+**API titles**: Ecommerce API [2023-01-27 17:35:54 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** ecommerce.yml
+
+**Total Commits** 42
+
+**Total First Commit** 2023-01-27 17:35:54 +0100
+
+
+**Total Last Commit** 2023-06-07 17:16:39 +0200
+
+
+**Total API Age (days)** 131
+
+**Total Unique Versions** 25
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-ecommerce-4-14-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-ecommerce-4-14-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# File storage API 
+
+
+**API titles**: File storage API [2021-08-31 19:45:50 +0200
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** file-storage.yml
+
+**Total Commits** 196
+
+**Total First Commit** 2021-08-31 19:45:50 +0200
+
+
+**Total Last Commit** 2023-06-16 09:51:10 +0200
+
+
+**Total API Age (days)** 654
+
+**Total Unique Versions** 158
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-file-storage-6-14-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-file-storage-6-14-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
