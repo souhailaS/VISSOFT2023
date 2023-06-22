@@ -1003,3 +1003,431 @@
 
 ------------------
 
+# pos 
+
+
+**API titles**: pos [2021-12-04 01:15:27 +0100
+] -> POS API [2022-03-24 15:11:16 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** pos.yml
+
+**Total Commits** 168
+
+**Total First Commit** 2021-12-04 01:15:27 +0100
+
+
+**Total Last Commit** 2023-06-16 09:51:10 +0200
+
+
+**Total API Age (days)** 559
+
+**Total Unique Versions** 130
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-pos-10-14-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-pos-10-14-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Proxy API 
+
+
+**API titles**: Proxy API [2021-05-28 21:32:46 +0200
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** proxy.yml
+
+**Total Commits** 195
+
+**Total First Commit** 2021-05-28 21:31:22 +0200
+
+
+**Total Last Commit** 2023-06-07 17:16:39 +0200
+
+
+**Total API Age (days)** 740
+
+**Total Unique Versions** 180
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-proxy-11-14-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-proxy-11-14-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# sms 
+
+
+**API titles**: sms [2021-10-25 07:39:04 +0200
+] -> SMS API [2022-03-24 15:11:16 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** sms.yml
+
+**Total Commits** 165
+
+**Total First Commit** 2021-10-25 07:39:04 +0200
+
+
+**Total Last Commit** 2023-06-07 17:16:39 +0200
+
+
+**Total API Age (days)** 590
+
+**Total Unique Versions** 144
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-sms-12-14-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-sms-12-14-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Vault API 
+
+
+**API titles**: Vault API [2020-12-04 08:02:49 +0100
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** vault.yml
+
+**Total Commits** 321
+
+**Total First Commit** 2020-12-04 08:02:49 +0100
+
+
+**Total Last Commit** 2023-06-07 17:16:39 +0200
+
+
+**Total API Age (days)** 915
+
+**Total Unique Versions** 191
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-vault-13-14-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-vault-13-14-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Webhook API 
+
+
+**API titles**: Webhook API [2021-09-02 16:35:30 +0200
+]
+
+
+**Source** https://github.com/apideck-libraries/openapi-specs.git
+
+**OAS File** webhook.yml
+
+**Total Commits** 241
+
+**Total First Commit** 2021-09-02 16:35:30 +0200
+
+
+**Total Last Commit** 2023-06-07 17:16:39 +0200
+
+
+**Total API Age (days)** 643
+
+**Total Unique Versions** 160
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-webhook-14-14-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-webhook-14-14-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# In-App Messaging 
+
+
+**API titles**: In-App Messaging [2020-03-11 18:01:11 +0900
+]
+
+
+**Source** https://github.com/rakutentech/ios-inappmessaging.git
+
+**OAS File** openapi.yaml
+
+**Total Commits** 19
+
+**Total First Commit** 2020-03-11 18:01:11 +0900
+
+
+**Total Last Commit** 2023-06-12 14:02:35 +0530
+
+
+**Total API Age (days)** 1188
+
+**Total Unique Versions** 16
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-0-15-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-0-15-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# ACH API 
+
+
+**API titles**: ACH API [2020-11-05 22:57:43 -0600
+]
+
+
+**Source** https://github.com/moov-io/ach.git
+
+**OAS File** openapi.yaml
+
+**Total Commits** 35
+
+**Total First Commit** 2020-04-22 16:22:12 -0500
+
+
+**Total Last Commit** 2023-04-18 08:48:25 -0500
+
+
+**Total API Age (days)** 1091
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-0-16-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-0-16-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# ZMON SLO Metrics 
+
+
+**API titles**: ZMON SLO Metrics [2016-09-21 14:32:22 +0200
+] -> ZMON service level reporting [2017-08-31 18:13:14 +0200
+]
+
+
+**Source** https://github.com/zalando-zmon/service-level-reporting.git
+
+**OAS File** swagger.yaml
+
+**Total Commits** 23
+
+**Total First Commit** 2016-09-21 14:32:22 +0200
+
+
+**Total Last Commit** 2020-02-04 14:22:07 +0100
+
+
+**Total API Age (days)** 1231
+
+**Total Unique Versions** 3
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-17-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-17-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Nightscout API 
+
+
+**API titles**: Nightscout API [2018-05-07 20:31:01 +0300
+]
+
+
+**Source** https://github.com/alijayne/https-github.com-alijayne-cgm-remote-monitor.git
+
+**OAS File** swagger.json
+
+**Total Commits** 43
+
+**Total First Commit** 2018-05-07 20:31:01 +0300
+
+
+**Total Last Commit** 2020-09-28 09:36:21 +0300
+
+
+**Total API Age (days)** 875
+
+**Total Unique Versions** 33
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-18-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-18-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Nightscout API 
+
+
+**API titles**: Nightscout API [2015-08-28 00:01:31 -0700
+]
+
+
+**Source** https://github.com/alijayne/https-github.com-alijayne-cgm-remote-monitor.git
+
+**OAS File** swagger.yaml
+
+**Total Commits** 56
+
+**Total First Commit** 2015-08-27 23:02:30 -0700
+
+
+**Total Last Commit** 2020-09-28 09:36:21 +0300
+
+
+**Total API Age (days)** 1858
+
+**Total Unique Versions** 34
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-1-18-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-1-18-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# UE Application Interface API 
+
+
+**API titles**: UE Application Interface API [2017-07-18 15:21:17 +0100
+] -> ETSI GS MEC 016 Device application interface [2020-10-24 10:39:48 -0400
+]
+
+
+**Source** https://github.com/etsi-forge/mec.gs016-ue-app-api.git
+
+**OAS File** UEAppInterfaceApi.json
+
+**Total Commits** 15
+
+**Total First Commit** 2017-07-18 15:21:17 +0100
+
+
+**Total Last Commit** 2021-11-16 15:33:59 +0500
+
+
+**Total API Age (days)** 1582
+
+**Total Unique Versions** 5
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-UEAppInterfaceApi-0-19-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-UEAppInterfaceApi-0-19-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# UE Application Interface API 
+
+
+**API titles**: UE Application Interface API [2017-07-18 15:21:17 +0100
+] -> ETSI GS MEC 016 Device application interface [2020-10-24 10:39:48 -0400
+]
+
+
+**Source** https://github.com/etsi-forge/mec.gs016-ue-app-api.git
+
+**OAS File** UEAppInterfaceApi.yaml
+
+**Total Commits** 16
+
+**Total First Commit** 2017-07-18 15:21:17 +0100
+
+
+**Total Last Commit** 2021-11-22 17:45:12 +0500
+
+
+**Total API Age (days)** 1588
+
+**Total Unique Versions** 5
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-UEAppInterfaceApi-1-19-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-UEAppInterfaceApi-1-19-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# ARD Eventhub 
+
+
+**API titles**: ARD Eventhub [2021-02-03 10:59:33 +0100
+] -> ARD-Eventhub [2021-02-25 13:31:52 +0100
+]
+
+
+**Source** https://github.com/swrlab/ard-eventhub.git
+
+**OAS File** openapi.json
+
+**Total Commits** 67
+
+**Total First Commit** 2021-02-03 10:59:33 +0100
+
+
+**Total Last Commit** 2023-04-19 16:12:34 +0200
+
+
+**Total API Age (days)** 805
+
+**Total Unique Versions** 46
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-0-20-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-0-20-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# ARD Eventhub 
+
+
+**API titles**: ARD Eventhub [2021-02-03 10:59:33 +0100
+] -> ARD-Eventhub [2021-02-25 13:31:52 +0100
+]
+
+
+**Source** https://github.com/swrlab/ard-eventhub.git
+
+**OAS File** openapi.yaml
+
+**Total Commits** 67
+
+**Total First Commit** 2021-02-03 10:59:33 +0100
+
+
+**Total Last Commit** 2023-04-19 16:11:36 +0200
+
+
+**Total API Age (days)** 805
+
+**Total Unique Versions** 47
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-1-20-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-1-20-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Test d'orientation du COVID19 
+
+
+**API titles**: Test d'orientation du COVID19 [2020-04-04 23:39:32 +0200
+] -> API d'orientation COVID19 [2020-04-05 23:40:59 +0200
+]
+
+
+**Source** https://github.com/Delegation-numerique-en-sante/covid19-algorithme-orientation-api.git
+
+**OAS File** covid19-algorithme-orientation-openapi.json
+
+**Total Commits** 19
+
+**Total First Commit** 2020-04-04 23:39:32 +0200
+
+
+**Total Last Commit** 2020-06-10 09:52:43 +0200
+
+
+**Total API Age (days)** 66
+
+**Total Unique Versions** 5
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-covid19-algorithme-orientation-openapi-0-21-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-covid19-algorithme-orientation-openapi-0-21-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
