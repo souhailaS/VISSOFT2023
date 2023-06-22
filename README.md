@@ -1488,3 +1488,145 @@
 
 ------------------
 
+# ShipEngine API 
+
+
+**API titles**: ShipEngine API [2018-10-31 12:18:55 -0500
+]
+
+
+**Source** https://github.com/ShipEngine/shipengine-openapi
+
+**OAS File** openapi.yaml
+
+**Total Commits** 98
+
+**Total First Commit** 2018-10-31 12:18:55 -0500
+
+
+**Total Last Commit** 2023-05-24 20:57:59 +0000
+
+
+**Total API Age (days)** 1666
+
+**Total Unique Versions** 37
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-1-23-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-1-23-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# trips Api 
+
+
+**API titles**: trips Api [2019-11-14 15:34:59 -0800
+]
+
+
+**Source** https://github.com/nwfsc-fram/TripsApi.git
+
+**OAS File** openapi.yaml
+
+**Total Commits** 35
+
+**Total First Commit** 2019-11-14 15:34:59 -0800
+
+
+**Total Last Commit** 2021-07-02 13:31:57 -0700
+
+
+**Total API Age (days)** 596
+
+**Total Unique Versions** 1
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-openapi-9-24-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-openapi-9-24-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Images transformation API 
+
+
+**API titles**: Images transformation API [2017-04-12 08:49:32 +1000
+] -> Images transformations API [2017-04-19 06:20:58 +1000
+] -> Image transformations API [2022-02-13 08:05:06 +1100
+]
+
+
+**Source** https://github.com/Pixboost/transformimgs.git
+
+**OAS File** swagger.json
+
+**Total Commits** 11
+
+**Total First Commit** 2017-04-12 08:49:32 +1000
+
+
+**Total Last Commit** 2022-02-13 08:05:06 +1100
+
+
+**Total API Age (days)** 1768
+
+**Total Unique Versions** 3
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-25-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-25-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# SunRocks API 
+
+
+**API titles**: SunRocks API [2017-08-02 12:20:45 +0200
+]
+
+
+**Source** https://github.com/trigo-at/sunrocks-public-api-docs
+
+**OAS File** public-api.yaml
+
+**Total Commits** 24
+
+**Total First Commit** 2017-08-02 12:20:45 +0200
+
+
+**Total Last Commit** 2023-05-17 09:19:38 +0200
+
+
+**Total API Age (days)** 2114
+
+**Total Unique Versions** 5
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-public-api-0-26-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-public-api-0-26-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
+# Nightscout API 
+
+
+**API titles**: Nightscout API [2018-05-07 20:31:01 +0300
+]
+
+
+**Source** https://github.com/oljanblixt/blodsocker.git
+
+**OAS File** swagger.json
+
+**Total Commits** 46
+
+**Total First Commit** 2018-05-07 20:31:01 +0300
+
+
+**Total Last Commit** 2020-12-14 10:16:27 +0200
+
+
+**Total API Age (days)** 952
+
+**Total Unique Versions** 36
+
+[View Visualization](https://souhailas.github.io/VISSOFT2023/OUTPUTS/viz-swagger-0-27-api.html)
+<div><iframe src="https://souhailas.github.io/VISSOFT2023//OUTPUTS/viz-swagger-0-27-api.html" width="100%" height="500px"></iframe></div>
+
+------------------
+
