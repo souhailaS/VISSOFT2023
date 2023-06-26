@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>API Changes vs. API versioning</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      /* set font */
+      font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #333;
+      height: 100vh; 
+    }
+    .views-item {
+      height: 600px;
+      box-shadow: #bfc4c6 0px 0px 4px;
+    }
+    .versions {
+      resize: both;
+      overflow: auto;
+  } 
+  .changes {
+    resize: both;
+    overflow: auto;
+} 
+  </style>
+</head>
+<body onLoad="window.scrollTo(0,170)">
+  <div class="container">
+    
+
+    <div class="row">
+      <div class="col-md-6">
+      <h3>API Meta data</h3>
+      <div class="font-weight-bold">Source: <a href="https://github.com/pa-media-group/sport-api-development-kit.git">https://github.com/pa-media-group/sport-api-development-kit.git</a></div>
+      <div class="font-weight-bold">OAS File: swagger.yaml</div>
+      <div class="font-weight-bold">API Title: Sport API [2017-04-06 09:07:19 +0100
+]</div>
+      
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Commit Date</th>
+              <th>Version</th>
+              <th>Title</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+              <tr>
+                <td>2017-04-06 09:06:01 +0100
+</td>
+                <td>1.0.0</td>
+                <td>Sport API Published</td>
+              </tr>
+            
+              <tr>
+                <td>2017-04-06 09:07:19 +0100
+</td>
+                <td>1.0</td>
+                <td>Sport API</td>
+              </tr>
+            
+          </tbody>
+        </table>
+      
+     
+      
+     
+      </div>
+      <div class="col-md-6">
+      <h3>API Commits and Versions</h3>
+      <table class="table">
+      <tr>
+        <th class="font-weight-bold">Unique Versions</th>
+        <td>2</td>
+      </tr>
+      <tr>
+        <th class="font-weight-bold">API Total Commits</th>
+        <td>34</td>
+      </tr>
+      <tr>
+        <th class="font-weight-bold">API First commit</th>
+        <td>2017-04-06 09:06:01 +0100
+</td>
+      </tr>
+      <tr>
+        <th class="font-weight-bold">API Last Commit</th>
+        <td>2019-09-25 09:27:30 +0100
+</td>
+      </tr>
+    </table>
+      </div>
+    </div>
+
+   
+    <div class="row" id="visualizations">
+      <div class="col-md-6">
+      <h3>API Version Clock</h3>
+        <div id="versions" class="views-item"></div>
+      </div>
+      <div class="col-md-6">
+      <h3>API Changes</h3>
+        <div id="changes" class="views-item"></div>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.1.0/echarts.min.js"></script>
+    <script>
+      // Initialize ECharts chart with the container element
+      var chartContainer = document.getElementById('changes');
+      var chart = echarts.init(chartContainer);
+      var chartOptions_1 = {"grid":{"width":"110%"},"tooltip":{"trigger":"item","triggerOn":"mousemove"},"calculable":false,"series":{"color":"#fff","roam":true,"center":["50%","50%"],"radius":["5%","85%"],"type":"sunburst","data":[{"name":"paths","children":[{"name":"added","value":21,"children":[{"name":"/participant/{participantId}","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/stage","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":11},"itemStyle":{"color":"#000"}},{"name":"/","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":11},"itemStyle":{"color":"#000"}},{"name":"/event/{eventId}/actions","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/event/{eventId}/composition","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/season","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"fontSize":10},"itemStyle":{"color":"#000"}},{"name":"/venue/{venueId}","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/tournament","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"fontSize":9},"itemStyle":{"color":"#000"}},{"name":"/event","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":11},"itemStyle":{"color":"#000"}},{"name":"/sport/{sportId}","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/tournament/{tournamentId}","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/stage/{stageId}","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/standing/{standingId}","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/country/{countryId}","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/event/{eventId}","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/standing","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"fontSize":10},"itemStyle":{"color":"#000"}},{"name":"/country","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"fontSize":10},"itemStyle":{"color":"#000"}},{"name":"/season/{seasonId}","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/draw","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":11},"itemStyle":{"color":"#000"}},{"name":"/sport","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":11},"itemStyle":{"color":"#000"}},{"name":"/draw/{drawId}","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"fontSize":9},"itemStyle":{"color":"#000"}}],"label":{"show":false},"itemStyle":{"color":"#49ff49","opacity":0.5,"borderColor":"#fff","borderWidth":4}},{"name":"deleted","value":4,"children":[{"name":"/pets","value":2,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}},{"name":"POST","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#F3C142"}}],"label":{"minAngle":11},"itemStyle":{"color":"#000"}},{"name":"/pets/{id}","value":2,"children":[{"name":"DELETE","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#FF0000"}},{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"fontSize":9},"itemStyle":{"color":"#000"}}],"label":{"show":false},"itemStyle":{"color":"#ff4949","opacity":0.5,"borderColor":"#fff","borderWidth":4}},{"name":"modified","value":3,"children":[{"name":"/audit","value":3,"children":[{"name":"operations","value":3,"children":[{"name":"modified","value":3,"children":[{"name":"GET","value":3,"children":[{"name":"tags","value":2,"children":[{"name":"added","value":1,"children":[{"name":"Audit","value":1,"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":11}}],"itemStyle":{"color":"#49ff49","opacity":0.5,"borderColor":"#fff","borderWidth":4},"label":{"show":false}},{"name":"deleted","value":1,"children":[{"name":"Country","value":1,"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":12,"fontSize":10}}],"itemStyle":{"color":"#ff4949","opacity":0.5,"borderColor":"#fff","borderWidth":4},"label":{"show":false}}],"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":11}},{"name":"description","value":1,"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":12,"fontSize":9}}],"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"show":false},"itemStyle":{"color":"#4949CD","opacity":0.5,"borderColor":"#fff","borderWidth":4}}],"label":{"minAngle":12,"fontSize":9},"itemStyle":{"color":"#000"}}],"label":{"minAngle":11},"itemStyle":{"color":"#000"}}],"label":{"show":false},"itemStyle":{"color":"#4949CD","opacity":0.5,"borderColor":"#fff","borderWidth":4}}],"label":{"minAngle":11},"itemStyle":{"color":"#000"},"value":28},{"name":"info","children":[{"name":"title","value":1,"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":11}},{"name":"description","value":1,"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":12,"fontSize":9}},{"name":"termsOfService","value":1,"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":12,"fontSize":9}},{"name":"contact","value":1,"children":[{"name":"deleted","value":1,"itemStyle":{"color":"#ff4949","opacity":0.5,"borderColor":"#fff","borderWidth":4},"label":{"show":false}}],"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":12,"fontSize":10}},{"name":"version","value":1,"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":12,"fontSize":10}}],"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":11},"value":5},{"name":"tags","itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":11},"value":0}],"label":{"overflow":"truncate","ellipsis":true,"rotate":"tangential"},"labelLayout":{"hideOverlap":true}},"toolbox":{"orient":"horizontal","show":true,"itemSize":17,"itemGap":15,"feature":{"saveAsImage":{"show":true,"title":"Save as PNG","pixelRatio":3},"restore":{"show":true,"title":"Restore"}}}};
+      chart.setOption(chartOptions_1);
+      window.addEventListener('resize', function() {
+        chart.resize();
+      });
+
+      var chartContainer = document.getElementById('versions');
+      var chart = echarts.init(chartContainer);
+      var chartOptions_2 = {"tooltip":{"trigger":"item","triggerOn":"mousemove"},"series":{"center":["50%","50%"],"radius":["5%","85%"],"type":"sunburst","data":[{"name":2017,"children":[{"name":"Apr","children":[{"name":6,"commit_date":"2017-04-06T08:06:01.000Z","children":[{"name":"10:06:01","children":[{"name":"1.0.0","level":"BACKWARD LEVEL","commit_date":"2017-04-06T08:06:01.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0.0","children":[{"level":"CHANGES LEVEL","name":"First Commit","itemStyle":{"color":"#FFF"},"commit_date":"2017-04-06T08:06:01.000Z","label":{"show":false},"children":[{"name":"First Commit","itemStyle":{"color":"#FFF"},"commit_date":"2017-04-06T08:06:01.000Z","label":{},"value":1}]}],"commit_date":"2017-04-06T08:06:01.000Z","itemStyle":{"color":"#fff"}}]}],"day":6,"commit_date":"2017-04-06T08:06:01.000Z","month":"Apr","year":2017,"itemStyle":{"color":"hsl(0, 50%, 50%)"}},{"name":"10:07:19","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2017-04-06T08:07:19.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"name":"breaking","level":"CHANGES LEVEL","itemStyle":{"color":"#B30000"},"commit_date":"2017-04-06T08:07:19.000Z","collapsed":true,"children":[{"name":" path removed without depr","original":"api-path-removed-without-deprecation","value":4,"itemStyle":{"color":"#B30000"},"collapsed":true,"breaking":true}],"value":4},{"level":"METADATA","name":"Meta data changes","itemStyle":{"color":"#C8C8C8"},"commit_date":"2017-04-06T08:07:19.000Z","children":[{"name":"api description modified","value":1,"itemStyle":{"color":"#C8C8C8"},"breaking":false},{"name":"api version modified","value":1,"itemStyle":{"color":"#C8C8C8"},"breaking":false}]},{"level":"CHANGES LEVEL","name":"non-breaking","itemStyle":{"color":"#90EE90"},"commit_date":"2017-04-06T08:07:19.000Z","children":[{"name":"api title modified","original":"api title modified","value":1,"itemStyle":{"color":"#90EE90"},"breaking":false},{"name":"api contact modified","original":"api contact modified","value":1,"itemStyle":{"color":"#90EE90"},"breaking":false},{"name":"path added","original":"path added","value":21,"itemStyle":{"color":"#90EE90"},"breaking":false}],"value":25}],"commit_date":"2017-04-06T08:07:19.000Z","itemStyle":{"color":"#fff"},"value":29}]}],"day":6,"commit_date":"2017-04-06T08:07:19.000Z","month":"Apr","year":2017,"itemStyle":{"color":"hsl(180, 50%, 50%)"}}],"month":"Apr","year":2017,"itemStyle":{"color":"#000000"},"value":null},{"name":10,"commit_date":"2017-04-10T12:06:50.000Z","children":[{"name":"14:06:50","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2017-04-10T12:06:50.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2017-04-10T12:06:50.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2017-04-10T12:06:50.000Z","label":{"show":false},"value":1}]}],"commit_date":"2017-04-10T12:06:50.000Z","itemStyle":{"color":"#fff"}}]}],"day":10,"commit_date":"2017-04-10T12:06:50.000Z","month":"Apr","year":2017,"itemStyle":{"color":"hsl(180, 50%, 50%)"}}],"month":"Apr","year":2017,"itemStyle":{"color":"#000000"}},{"name":11,"commit_date":"2017-04-11T13:10:41.000Z","children":[{"name":"15:10:41","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2017-04-11T13:10:41.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2017-04-11T13:10:41.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2017-04-11T13:10:41.000Z","label":{"show":false},"value":1}]}],"commit_date":"2017-04-11T13:10:41.000Z","itemStyle":{"color":"#fff"}}]}],"day":11,"commit_date":"2017-04-11T13:10:41.000Z","month":"Apr","year":2017,"itemStyle":{"color":"hsl(180, 50%, 50%)"}}],"month":"Apr","year":2017,"itemStyle":{"color":"#000000"}},{"name":20,"commit_date":"2017-04-20T15:19:17.000Z","children":[{"name":"17:19:17","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2017-04-20T15:19:17.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2017-04-20T15:19:17.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2017-04-20T15:19:17.000Z","label":{"show":false},"value":1}]}],"commit_date":"2017-04-20T15:19:17.000Z","itemStyle":{"color":"#fff"}}]}],"day":20,"commit_date":"2017-04-20T15:19:17.000Z","month":"Apr","year":2017,"itemStyle":{"color":"hsl(180, 50%, 50%)"}},{"name":"18:11:24","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2017-04-20T16:11:24.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2017-04-20T16:11:24.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2017-04-20T16:11:24.000Z","label":{"show":false},"value":1}]}],"commit_date":"2017-04-20T16:11:24.000Z","itemStyle":{"color":"#fff"}}]}],"day":20,"commit_date":"2017-04-20T16:11:24.000Z","month":"Apr","year":2017,"itemStyle":{"color":"hsl(180, 50%, 50%)"}}],"month":"Apr","year":2017,"itemStyle":{"color":"#000000"},"value":null},{"name":21,"commit_date":"2017-04-21T09:47:55.000Z","children":[{"name":"11:47:55","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2017-04-21T09:47:55.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2017-04-21T09:47:55.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2017-04-21T09:47:55.000Z","label":{"show":false},"value":1}]}],"commit_date":"2017-04-21T09:47:55.000Z","itemStyle":{"color":"#fff"}}]},{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2017-04-21T09:47:55.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2017-04-21T09:47:55.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2017-04-21T09:47:55.000Z","label":{"show":false},"value":1}]}],"commit_date":"2017-04-21T09:47:55.000Z","itemStyle":{"color":"#fff"}}]}],"day":21,"commit_date":"2017-04-21T09:47:55.000Z","month":"Apr","year":2017,"itemStyle":{"color":"hsl(180, 50%, 50%)"}},{"name":"12:04:47","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2017-04-21T10:04:47.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2017-04-21T10:04:47.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2017-04-21T10:04:47.000Z","label":{"show":false},"value":1}]}],"commit_date":"2017-04-21T10:04:47.000Z","itemStyle":{"color":"#fff"}}]}],"day":21,"commit_date":"2017-04-21T10:04:47.000Z","month":"Apr","year":2017,"itemStyle":{"color":"hsl(180, 50%, 50%)"}}],"month":"Apr","year":2017,"itemStyle":{"color":"#000000"},"value":null}],"commit_date":"2017-04-06T08:06:01.000Z","year":2017,"itemStyle":{"color":"#000000"}}],"commit_date":"2017-04-06T08:06:01.000Z","itemStyle":{"color":"#000000"}},{"name":2019,"children":[{"name":"Sep","children":[{"name":24,"commit_date":"2019-09-24T14:12:28.000Z","children":[{"name":"16:12:28","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2019-09-24T14:12:28.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2019-09-24T14:12:28.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2019-09-24T14:12:28.000Z","label":{"show":false},"value":1}]}],"commit_date":"2019-09-24T14:12:28.000Z","itemStyle":{"color":"#fff"}}]}],"day":24,"commit_date":"2019-09-24T14:12:28.000Z","month":"Sep","year":2019,"itemStyle":{"color":"hsl(180, 50%, 50%)"}},{"name":"16:25:54","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2019-09-24T14:25:54.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"METADATA","name":"Meta data changes","itemStyle":{"color":"#C8C8C8"},"commit_date":"2019-09-24T14:25:54.000Z","children":[{"name":"tags of GET modified","value":1,"itemStyle":{"color":"#C8C8C8"},"breaking":false}]}],"commit_date":"2019-09-24T14:25:54.000Z","itemStyle":{"color":"#fff"},"value":1}]}],"day":24,"commit_date":"2019-09-24T14:25:54.000Z","month":"Sep","year":2019,"itemStyle":{"color":"hsl(180, 50%, 50%)"}},{"name":"16:35:43","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2019-09-24T14:35:43.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2019-09-24T14:35:43.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2019-09-24T14:35:43.000Z","label":{"show":false},"value":1}]}],"commit_date":"2019-09-24T14:35:43.000Z","itemStyle":{"color":"#fff"}}]}],"day":24,"commit_date":"2019-09-24T14:35:43.000Z","month":"Sep","year":2019,"itemStyle":{"color":"hsl(180, 50%, 50%)"}},{"name":"17:21:34","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2019-09-24T15:21:34.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"METADATA","name":"Meta data changes","itemStyle":{"color":"#C8C8C8"},"commit_date":"2019-09-24T15:21:34.000Z","children":[{"name":"desc of GET modified","value":1,"itemStyle":{"color":"#C8C8C8"},"breaking":false}]}],"commit_date":"2019-09-24T15:21:34.000Z","itemStyle":{"color":"#fff"},"value":1}]}],"day":24,"commit_date":"2019-09-24T15:21:34.000Z","month":"Sep","year":2019,"itemStyle":{"color":"hsl(180, 50%, 50%)"}}],"month":"Sep","year":2019,"itemStyle":{"color":"#7f7f7f"},"value":null},{"name":25,"commit_date":"2019-09-25T08:24:21.000Z","children":[{"name":"10:24:21","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2019-09-25T08:24:21.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2019-09-25T08:24:21.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2019-09-25T08:24:21.000Z","label":{"show":false},"value":1}]}],"commit_date":"2019-09-25T08:24:21.000Z","itemStyle":{"color":"#fff"}}]}],"day":25,"commit_date":"2019-09-25T08:24:21.000Z","month":"Sep","year":2019,"itemStyle":{"color":"hsl(180, 50%, 50%)"}},{"name":"10:27:30","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2019-09-25T08:27:30.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2019-09-25T08:27:30.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2019-09-25T08:27:30.000Z","label":{"show":false},"value":1}]}],"commit_date":"2019-09-25T08:27:30.000Z","itemStyle":{"color":"#fff"}}]}],"day":25,"commit_date":"2019-09-25T08:27:30.000Z","month":"Sep","year":2019,"itemStyle":{"color":"hsl(180, 50%, 50%)"}}],"month":"Sep","year":2019,"itemStyle":{"color":"#7f7f7f"},"value":null}],"commit_date":"2019-09-24T14:12:28.000Z","year":2019,"itemStyle":{"color":"#7f7f7f"}}],"commit_date":"2019-09-24T14:12:28.000Z","itemStyle":{"color":"#7f7f7f"}}],"sort":null,"grid":{"with":"100%"},"levels":[{},{"r0":"3%","r":"11%","label":{"fontSize":10,"minAngle":10},"itemStyle":{"borderWidth":0}},{"r0":"11%","r":"18%","label":{"fontSize":10,"minAngle":10},"itemStyle":{"borderWidth":0}},{"r0":"18%","r":"25%","label":{"rotate":"tangential","fontSize":10,"minAngle":10},"itemStyle":{"borderWidth":0}},{"r0":"25.25%","r":"34%","label":{"fontSize":7,"minAngle":9},"itemStyle":{"borderWidth":0}},{"r0":"34.5%","r":"35.5%","label":{"show":false},"itemStyle":{"borderWidth":0}},{"r0":"36%","r":"50%","label":{"color":"#000000","fontSize":9,"minAngle":5},"itemStyle":{"borderWidth":1}},{"r0":"50%","r":"52%","itemStyle":{"borderWidth":1},"label":{"show":false,"rotate":"tangential","minAngle":12}},{"r0":"52.5%","r":"53.5%","label":{"position":"outside","padding":0,"silent":false,"fontSize":10,"color":"#000000","minAngle":2},"itemStyle":{"borderWidth":1}}]},"toolbox":{"orient":"horizontal","show":true,"itemSize":17,"itemGap":15,"feature":{"saveAsImage":{"show":true,"title":"Save as PNG","pixelRatio":3},"restore":{"show":true,"title":"Restore"}}}};
+      chart.setOption(chartOptions_2);
+      window.addEventListener('resize', function() {
+          chart.resize();
+      });
+    </script>
+  </body>
+</html>
