@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <!-- jQuery library -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+   <!-- Latest compiled JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   <style>
+        body {
+      /* set font */
+      font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #333;
+      height: 100vh; 
+    }
+    </style>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <h1>Gallery</h1>
+    <body class="container">
+
+        <!-- <add api> -->
+       
+    </body>
+</html>
