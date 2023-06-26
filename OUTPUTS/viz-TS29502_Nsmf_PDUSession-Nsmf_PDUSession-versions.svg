@@ -1,0 +1,109 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 500 500">
+<rect width="500" height="500" x="0" y="0" id="0" fill="none"></rect>
+<path d="M250 222.5A27.5 27.5 0 1 1 247.3 222.6A27.5 27.5 0 0 1 250 222.5M250 242.5A7.5 7.5 0 1 0 250.7 242.5A7.5 7.5 0 0 0 250 242.5Z" fill="#000000" stroke="white" stroke-width="0" stroke-linejoin="bevel" class="zr153-cls-0"></path>
+<path d="M250 205A45 45 0 1 1 245.5 205.2A45 45 0 0 1 250 205M250 222.5A27.5 27.5 0 1 0 252.7 222.6A27.5 27.5 0 0 0 250 222.5Z" fill="#000000" stroke="white" stroke-width="0" stroke-linejoin="bevel" class="zr153-cls-1"></path>
+<path d="M250 187.5A62.5 62.5 0 1 1 243.8 187.8A62.5 62.5 0 0 1 250 187.5M250 205A45 45 0 1 0 254.5 205.2A45 45 0 0 0 250 205Z" fill="#000000" stroke="white" stroke-width="0" stroke-linejoin="bevel" class="zr153-cls-2"></path>
+<path d="M250 155A95 95 0 1 1 240.5 155.5A95 95 0 0 1 250 155M250 186.9A63.1 63.1 0 1 0 256.3 187.2A63.1 63.1 0 0 0 250 186.9Z" fill="hsl(0, 50%, 50%)" stroke="white" stroke-width="0" stroke-linejoin="bevel" class="zr153-cls-3"></path>
+<path d="M250 151.3A98.8 98.8 0 1 1 240.1 151.7A98.8 98.8 0 0 1 250 151.3M250 153.8A96.3 96.3 0 1 0 259.6 154.2A96.3 96.3 0 0 0 250 153.8Z" fill="#fff" stroke="white" stroke-width="0" stroke-linejoin="bevel" class="zr153-cls-4"></path>
+<path d="M250 115A135 135 0 1 1 236.5 115.7A135 135 0 0 1 250 115M250 150A100 100 0 1 0 260 150.5A100 100 0 0 0 250 150Z" fill="#fff" stroke="white" stroke-linejoin="bevel" class="zr153-cls-5"></path>
+<path d="M250 110A140 140 0 1 1 236 110.7A140 140 0 0 1 250 110M250 115A135 135 0 1 0 263.5 115.7A135 135 0 0 0 250 115Z" fill="#FFF" stroke="white" stroke-linejoin="bevel" class="zr153-cls-6"></path>
+<path d="M250 106.3A143.8 143.8 0 1 1 235.6 107A143.8 143.8 0 0 1 250 106.3M250 108.8A141.3 141.3 0 1 0 264.1 109.5A141.3 141.3 0 0 0 250 108.8Z" fill="#FFF" stroke="white" stroke-linejoin="bevel" class="zr153-cls-7"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:7px;font-family:sans-serif;" transform="matrix(0,1,-1,0,250,267.5)" fill="#ccc" stroke="#000000" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">2018</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:7px;font-family:sans-serif;" transform="matrix(0,1,-1,0,250,286.25)" fill="#ccc" stroke="#000000" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">Sep</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:7px;font-family:sans-serif;" transform="translate(250 303.75)" fill="#ccc" stroke="#000000" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:7px;font-family:sans-serif;" transform="matrix(0,1,-1,0,250,329.0625)" fill="#eee" stroke="hsl(0, 50%, 50%)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">20:45:13</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:9px;font-family:sans-serif;" transform="matrix(0,1,-1,0,250,367.5)" fill="#000000">1.PreR15.1.0</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:sans-serif;" xml:space="preserve" transform="matrix(0,1,-1,0,250,398.75)" fill="#000000">First Commit</text>
+<style ><![CDATA[
+.zr153-cls-0 {
+animation:zr153-ani-0 1s cubic-bezier(0.65,0,0.35,1) both;
+}
+.zr153-cls-1 {
+animation:zr153-ani-1 1s cubic-bezier(0.65,0,0.35,1) both;
+}
+.zr153-cls-2 {
+animation:zr153-ani-2 1s cubic-bezier(0.65,0,0.35,1) both;
+}
+.zr153-cls-3 {
+animation:zr153-ani-3 1s cubic-bezier(0.65,0,0.35,1) both;
+}
+.zr153-cls-4 {
+animation:zr153-ani-4 1s cubic-bezier(0.65,0,0.35,1) both;
+}
+.zr153-cls-5 {
+animation:zr153-ani-5 1s cubic-bezier(0.65,0,0.35,1) both;
+}
+.zr153-cls-6 {
+animation:zr153-ani-6 1s cubic-bezier(0.65,0,0.35,1) both;
+}
+.zr153-cls-7 {
+animation:zr153-ani-7 1s cubic-bezier(0.65,0,0.35,1) both;
+}
+@keyframes zr153-ani-0 {
+0% {
+d:path("M250 242.5A7.5 7.5 0 1 1 249.3 242.5A7.5 7.5 0 0 1 250 242.5M250 242.5A7.5 7.5 0 1 0 250.7 242.5A7.5 7.5 0 0 0 250 242.5Z");
+}
+100% {
+d:path("M250 222.5A27.5 27.5 0 1 1 247.3 222.6A27.5 27.5 0 0 1 250 222.5M250 242.5A7.5 7.5 0 1 0 250.7 242.5A7.5 7.5 0 0 0 250 242.5Z");
+}
+}
+@keyframes zr153-ani-1 {
+0% {
+d:path("M250 222.5A27.5 27.5 0 1 1 247.3 222.6A27.5 27.5 0 0 1 250 222.5M250 222.5A27.5 27.5 0 1 0 252.7 222.6A27.5 27.5 0 0 0 250 222.5Z");
+}
+100% {
+d:path("M250 205A45 45 0 1 1 245.5 205.2A45 45 0 0 1 250 205M250 222.5A27.5 27.5 0 1 0 252.7 222.6A27.5 27.5 0 0 0 250 222.5Z");
+}
+}
+@keyframes zr153-ani-2 {
+0% {
+d:path("M250 205A45 45 0 1 1 245.5 205.2A45 45 0 0 1 250 205M250 205A45 45 0 1 0 254.5 205.2A45 45 0 0 0 250 205Z");
+}
+100% {
+d:path("M250 187.5A62.5 62.5 0 1 1 243.8 187.8A62.5 62.5 0 0 1 250 187.5M250 205A45 45 0 1 0 254.5 205.2A45 45 0 0 0 250 205Z");
+}
+}
+@keyframes zr153-ani-3 {
+0% {
+d:path("M250 186.9A63.1 63.1 0 1 1 243.7 187.2A63.1 63.1 0 0 1 250 186.9M250 186.9A63.1 63.1 0 1 0 256.3 187.2A63.1 63.1 0 0 0 250 186.9Z");
+}
+100% {
+d:path("M250 155A95 95 0 1 1 240.5 155.5A95 95 0 0 1 250 155M250 186.9A63.1 63.1 0 1 0 256.3 187.2A63.1 63.1 0 0 0 250 186.9Z");
+}
+}
+@keyframes zr153-ani-4 {
+0% {
+d:path("M250 153.8A96.3 96.3 0 1 1 240.4 154.2A96.3 96.3 0 0 1 250 153.8M250 153.8A96.3 96.3 0 1 0 259.6 154.2A96.3 96.3 0 0 0 250 153.8Z");
+}
+100% {
+d:path("M250 151.3A98.8 98.8 0 1 1 240.1 151.7A98.8 98.8 0 0 1 250 151.3M250 153.8A96.3 96.3 0 1 0 259.6 154.2A96.3 96.3 0 0 0 250 153.8Z");
+}
+}
+@keyframes zr153-ani-5 {
+0% {
+d:path("M250 150A100 100 0 1 1 240 150.5A100 100 0 0 1 250 150M250 150A100 100 0 1 0 260 150.5A100 100 0 0 0 250 150Z");
+}
+100% {
+d:path("M250 115A135 135 0 1 1 236.5 115.7A135 135 0 0 1 250 115M250 150A100 100 0 1 0 260 150.5A100 100 0 0 0 250 150Z");
+}
+}
+@keyframes zr153-ani-6 {
+0% {
+d:path("M250 115A135 135 0 1 1 236.5 115.7A135 135 0 0 1 250 115M250 115A135 135 0 1 0 263.5 115.7A135 135 0 0 0 250 115Z");
+}
+100% {
+d:path("M250 110A140 140 0 1 1 236 110.7A140 140 0 0 1 250 110M250 115A135 135 0 1 0 263.5 115.7A135 135 0 0 0 250 115Z");
+}
+}
+@keyframes zr153-ani-7 {
+0% {
+d:path("M250 108.8A141.3 141.3 0 1 1 235.9 109.5A141.3 141.3 0 0 1 250 108.8M250 108.8A141.3 141.3 0 1 0 264.1 109.5A141.3 141.3 0 0 0 250 108.8Z");
+}
+100% {
+d:path("M250 106.3A143.8 143.8 0 1 1 235.6 107A143.8 143.8 0 0 1 250 106.3M250 108.8A141.3 141.3 0 1 0 264.1 109.5A141.3 141.3 0 0 0 250 108.8Z");
+}
+}
+]]>
+
+</style>
+</svg>
