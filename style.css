@@ -1,0 +1,8 @@
+body {
+    /* set font */
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    height: 100vh; 
+  }

@@ -1,3 +1,9 @@
+---
+output:
+  html_document:
+    css: style.css
+---
+
 # [1] EasyShare
 
 **API Titles**: `EasyShare [2019-10-17 11:37:01 +0200
