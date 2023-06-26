@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>API Changes vs. API versioning</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      /* set font */
+      font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #333;
+      height: 100vh; 
+    }
+    .views-item {
+      height: 600px;
+      box-shadow: #bfc4c6 0px 0px 4px;
+    }
+    .versions {
+      resize: both;
+      overflow: auto;
+  } 
+  .changes {
+    resize: both;
+    overflow: auto;
+} 
+  </style>
+</head>
+<body onLoad="window.scrollTo(0,170)">
+  <div class="container">
+    
+
+    <div class="row">
+      <div class="col-md-6">
+      <h3>API Meta data</h3>
+      <div class="font-weight-bold">Source: <a href="https://github.com/IMN/mkp-api-docs.git">https://github.com/IMN/mkp-api-docs.git</a></div>
+      <div class="font-weight-bold">OAS File: swagger.json</div>
+      <div class="font-weight-bold">API Title: IMN Marketplace API  [2021-01-08 18:58:05 +0100
+]</div>
+      
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Commit Date</th>
+              <th>Version</th>
+              <th>Title</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+              <tr>
+                <td>2018-03-30 12:11:21 +0000
+</td>
+                <td>1.0</td>
+                <td>IMN API - DEV</td>
+              </tr>
+            
+              <tr>
+                <td>2018-03-30 16:01:32 +0000
+</td>
+                <td>1.0</td>
+                <td>IMN API</td>
+              </tr>
+            
+              <tr>
+                <td>2018-05-18 12:29:46 +0200
+</td>
+                <td>1.0</td>
+                <td>IMN marketplace API</td>
+              </tr>
+            
+              <tr>
+                <td>2021-01-08 18:58:05 +0100
+</td>
+                <td>1.0</td>
+                <td>IMN Marketplace API </td>
+              </tr>
+            
+          </tbody>
+        </table>
+      
+     
+      
+     
+      </div>
+      <div class="col-md-6">
+      <h3>API Commits and Versions</h3>
+      <table class="table">
+      <tr>
+        <th class="font-weight-bold">Unique Versions</th>
+        <td>1</td>
+      </tr>
+      <tr>
+        <th class="font-weight-bold">API Total Commits</th>
+        <td>51</td>
+      </tr>
+      <tr>
+        <th class="font-weight-bold">API First commit</th>
+        <td>2018-03-30 12:11:21 +0000
+</td>
+      </tr>
+      <tr>
+        <th class="font-weight-bold">API Last Commit</th>
+        <td>2021-11-03 10:04:32 +0100
+</td>
+      </tr>
+    </table>
+      </div>
+    </div>
+
+   
+    <div class="row" id="visualizations">
+      <div class="col-md-6">
+      <h3>API Version Clock</h3>
+        <div id="versions" class="views-item"></div>
+      </div>
+      <div class="col-md-6">
+      <h3>API Changes</h3>
+        <div id="changes" class="views-item"></div>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.1.0/echarts.min.js"></script>
+    <script>
+      // Initialize ECharts chart with the container element
+      var chartContainer = document.getElementById('changes');
+      var chart = echarts.init(chartContainer);
+      var chartOptions_1 = {"grid":{"width":"110%"},"tooltip":{"trigger":"item","triggerOn":"mousemove"},"calculable":false,"series":{"color":"#fff","roam":true,"center":["50%","50%"],"radius":["5%","85%"],"type":"sunburst","data":[{"name":"paths","children":[{"name":"added","value":2,"children":[{"name":"/marketplace/lov/v1/{listName}","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/marketplace/lov/v1/","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}}],"label":{"show":false},"itemStyle":{"color":"#49ff49","opacity":0.5,"borderColor":"#fff","borderWidth":4}}],"label":{"minAngle":11},"itemStyle":{"color":"#000"},"value":2},{"name":"info","children":[{"name":"title","value":2,"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":11}}],"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":11},"value":2},{"name":"tags","children":[{"name":"added","value":1,"children":[{"name":"Marketplace API - List of Values - LOV","value":1,"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":12,"show":false}}],"itemStyle":{"color":"#49ff49","opacity":0.5,"borderColor":"#fff","borderWidth":4},"label":{"show":false}}],"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":11},"value":1}],"label":{"overflow":"truncate","ellipsis":true,"rotate":"tangential"},"labelLayout":{"hideOverlap":true}},"toolbox":{"orient":"horizontal","show":true,"itemSize":17,"itemGap":15,"feature":{"saveAsImage":{"show":true,"title":"Save as PNG","pixelRatio":3},"restore":{"show":true,"title":"Restore"}}}};
+      chart.setOption(chartOptions_1);
+      window.addEventListener('resize', function() {
+        chart.resize();
+      });
+
+      var chartContainer = document.getElementById('versions');
+      var chart = echarts.init(chartContainer);
+      var chartOptions_2 = {"tooltip":{"trigger":"item","triggerOn":"mousemove"},"series":{"center":["50%","50%"],"radius":["5%","85%"],"type":"sunburst","data":[{"name":2018,"children":[{"name":"Mar","children":[{"name":30,"commit_date":"2018-03-30T12:11:21.000Z","children":[{"name":"14:11:21","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2018-03-30T12:11:21.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"First Commit","itemStyle":{"color":"#FFF"},"commit_date":"2018-03-30T12:11:21.000Z","label":{"show":false},"children":[{"name":"First Commit","itemStyle":{"color":"#FFF"},"commit_date":"2018-03-30T12:11:21.000Z","label":{},"value":1}]}],"commit_date":"2018-03-30T12:11:21.000Z","itemStyle":{"color":"#fff"}}]}],"day":30,"commit_date":"2018-03-30T12:11:21.000Z","month":"Mar","year":2018,"itemStyle":{"color":"hsl(0, 50%, 50%)"}},{"name":"18:01:32","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2018-03-30T16:01:32.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"non-breaking","itemStyle":{"color":"#90EE90"},"commit_date":"2018-03-30T16:01:32.000Z","children":[{"name":"api title modified","original":"api title modified","value":1,"itemStyle":{"color":"#90EE90"},"breaking":false}],"value":1}],"commit_date":"2018-03-30T16:01:32.000Z","itemStyle":{"color":"#fff"},"value":1}]}],"day":30,"commit_date":"2018-03-30T16:01:32.000Z","month":"Mar","year":2018,"itemStyle":{"color":"hsl(0, 50%, 50%)"}}],"month":"Mar","year":2018,"itemStyle":{"color":"#000000"},"value":null}],"commit_date":"2018-03-30T12:11:21.000Z","year":2018,"itemStyle":{"color":"#000000"}},{"name":"Apr","children":[{"name":5,"commit_date":"2018-04-05T10:35:14.000Z","children":[{"name":"12:35:14","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2018-04-05T10:35:14.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2018-04-05T10:35:14.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2018-04-05T10:35:14.000Z","label":{"show":false},"value":1}]}],"commit_date":"2018-04-05T10:35:14.000Z","itemStyle":{"color":"#fff"}}]}],"day":5,"commit_date":"2018-04-05T10:35:14.000Z","month":"Apr","year":2018,"itemStyle":{"color":"hsl(0, 50%, 50%)"}}],"month":"Apr","year":2018,"itemStyle":{"color":"#000000"}}],"commit_date":"2018-04-05T10:35:14.000Z","year":2018,"itemStyle":{"color":"#000000"}},{"name":"May","children":[{"name":18,"commit_date":"2018-05-18T10:29:46.000Z","children":[{"name":"12:29:46","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2018-05-18T10:29:46.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"METADATA","name":"Meta data changes","itemStyle":{"color":"#C8C8C8"},"commit_date":"2018-05-18T10:29:46.000Z","children":[{"name":"API tags modified","value":1,"itemStyle":{"color":"#C8C8C8"},"breaking":false}]},{"level":"CHANGES LEVEL","name":"non-breaking","itemStyle":{"color":"#90EE90"},"commit_date":"2018-05-18T10:29:46.000Z","children":[{"name":"api title modified","original":"api title modified","value":1,"itemStyle":{"color":"#90EE90"},"breaking":false},{"name":"path added","original":"path added","value":2,"itemStyle":{"color":"#90EE90"},"breaking":false}],"value":4}],"commit_date":"2018-05-18T10:29:46.000Z","itemStyle":{"color":"#fff"},"value":4}]}],"day":18,"commit_date":"2018-05-18T10:29:46.000Z","month":"May","year":2018,"itemStyle":{"color":"hsl(0, 50%, 50%)"}}],"month":"May","year":2018,"itemStyle":{"color":"#000000"}}],"commit_date":"2018-05-18T10:29:46.000Z","year":2018,"itemStyle":{"color":"#000000"}}],"commit_date":"2018-03-30T12:11:21.000Z","itemStyle":{"color":"#000000"}},{"name":2021,"children":[{"name":"Jan","children":[{"name":8,"commit_date":"2021-01-08T17:58:05.000Z","children":[{"name":"18:58:05","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-01-08T17:58:05.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-01-08T17:58:05.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-01-08T17:58:05.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-01-08T17:58:05.000Z","itemStyle":{"color":"#fff"}}]}],"day":8,"commit_date":"2021-01-08T17:58:05.000Z","month":"Jan","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}}],"month":"Jan","year":2021,"itemStyle":{"color":"#7f7f7f"}},{"name":25,"commit_date":"2021-01-25T15:01:17.000Z","children":[{"name":"16:01:17","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-01-25T15:01:17.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-01-25T15:01:17.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-01-25T15:01:17.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-01-25T15:01:17.000Z","itemStyle":{"color":"#fff"}}]}],"day":25,"commit_date":"2021-01-25T15:01:17.000Z","month":"Jan","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}}],"month":"Jan","year":2021,"itemStyle":{"color":"#7f7f7f"}}],"commit_date":"2021-01-08T17:58:05.000Z","year":2021,"itemStyle":{"color":"#7f7f7f"}},{"name":"Feb","children":[{"name":19,"commit_date":"2021-02-19T08:07:27.000Z","children":[{"name":"09:07:27","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-02-19T08:07:27.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-02-19T08:07:27.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-02-19T08:07:27.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-02-19T08:07:27.000Z","itemStyle":{"color":"#fff"}}]}],"day":19,"commit_date":"2021-02-19T08:07:27.000Z","month":"Feb","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}}],"month":"Feb","year":2021,"itemStyle":{"color":"#7f7f7f"}}],"commit_date":"2021-02-19T08:07:27.000Z","year":2021,"itemStyle":{"color":"#7f7f7f"}},{"name":"Mar","children":[{"name":5,"commit_date":"2021-03-05T08:17:33.000Z","children":[{"name":"09:17:33","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-03-05T08:17:33.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-03-05T08:17:33.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-03-05T08:17:33.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-03-05T08:17:33.000Z","itemStyle":{"color":"#fff"}}]}],"day":5,"commit_date":"2021-03-05T08:17:33.000Z","month":"Mar","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}}],"month":"Mar","year":2021,"itemStyle":{"color":"#7f7f7f"}},{"name":10,"commit_date":"2021-03-10T10:52:15.000Z","children":[{"name":"11:52:15","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-03-10T10:52:15.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-03-10T10:52:15.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-03-10T10:52:15.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-03-10T10:52:15.000Z","itemStyle":{"color":"#fff"}}]}],"day":10,"commit_date":"2021-03-10T10:52:15.000Z","month":"Mar","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}},{"name":"15:16:39","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-03-10T14:16:39.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-03-10T14:16:39.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-03-10T14:16:39.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-03-10T14:16:39.000Z","itemStyle":{"color":"#fff"}}]}],"day":10,"commit_date":"2021-03-10T14:16:39.000Z","month":"Mar","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}},{"name":"18:54:29","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-03-10T17:54:29.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-03-10T17:54:29.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-03-10T17:54:29.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-03-10T17:54:29.000Z","itemStyle":{"color":"#fff"}}]}],"day":10,"commit_date":"2021-03-10T17:54:29.000Z","month":"Mar","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}}],"month":"Mar","year":2021,"itemStyle":{"color":"#7f7f7f"},"value":null},{"name":11,"commit_date":"2021-03-11T14:22:07.000Z","children":[{"name":"15:22:07","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-03-11T14:22:07.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-03-11T14:22:07.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-03-11T14:22:07.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-03-11T14:22:07.000Z","itemStyle":{"color":"#fff"}}]}],"day":11,"commit_date":"2021-03-11T14:22:07.000Z","month":"Mar","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}}],"month":"Mar","year":2021,"itemStyle":{"color":"#7f7f7f"}}],"commit_date":"2021-03-05T08:17:33.000Z","year":2021,"itemStyle":{"color":"#7f7f7f"}},{"name":"May","children":[{"name":17,"commit_date":"2021-05-17T14:28:29.000Z","children":[{"name":"16:28:29","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-05-17T14:28:29.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-05-17T14:28:29.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-05-17T14:28:29.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-05-17T14:28:29.000Z","itemStyle":{"color":"#fff"}}]}],"day":17,"commit_date":"2021-05-17T14:28:29.000Z","month":"May","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}}],"month":"May","year":2021,"itemStyle":{"color":"#7f7f7f"}},{"name":18,"commit_date":"2021-05-18T08:29:49.000Z","children":[{"name":"10:29:49","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-05-18T08:29:49.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-05-18T08:29:49.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-05-18T08:29:49.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-05-18T08:29:49.000Z","itemStyle":{"color":"#fff"}}]}],"day":18,"commit_date":"2021-05-18T08:29:49.000Z","month":"May","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}}],"month":"May","year":2021,"itemStyle":{"color":"#7f7f7f"}},{"name":27,"commit_date":"2021-05-27T13:12:31.000Z","children":[{"name":"15:12:31","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-05-27T13:12:31.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-05-27T13:12:31.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-05-27T13:12:31.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-05-27T13:12:31.000Z","itemStyle":{"color":"#fff"}}]}],"day":27,"commit_date":"2021-05-27T13:12:31.000Z","month":"May","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}}],"month":"May","year":2021,"itemStyle":{"color":"#7f7f7f"}}],"commit_date":"2021-05-17T14:28:29.000Z","year":2021,"itemStyle":{"color":"#7f7f7f"}},{"name":"Sep","children":[{"name":2,"commit_date":"2021-09-02T08:22:33.000Z","children":[{"name":"10:22:33","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-09-02T08:22:33.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-09-02T08:22:33.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-09-02T08:22:33.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-09-02T08:22:33.000Z","itemStyle":{"color":"#fff"}}]}],"day":2,"commit_date":"2021-09-02T08:22:33.000Z","month":"Sep","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}}],"month":"Sep","year":2021,"itemStyle":{"color":"#7f7f7f"}},{"name":24,"commit_date":"2021-09-24T08:36:18.000Z","children":[{"name":"10:36:18","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-09-24T08:36:18.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-09-24T08:36:18.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-09-24T08:36:18.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-09-24T08:36:18.000Z","itemStyle":{"color":"#fff"}}]}],"day":24,"commit_date":"2021-09-24T08:36:18.000Z","month":"Sep","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}}],"month":"Sep","year":2021,"itemStyle":{"color":"#7f7f7f"}}],"commit_date":"2021-09-02T08:22:33.000Z","year":2021,"itemStyle":{"color":"#7f7f7f"}},{"name":"Nov","children":[{"name":2,"commit_date":"2021-11-02T11:07:25.000Z","children":[{"name":"12:07:25","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-11-02T11:07:25.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-11-02T11:07:25.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-11-02T11:07:25.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-11-02T11:07:25.000Z","itemStyle":{"color":"#fff"}}]}],"day":2,"commit_date":"2021-11-02T11:07:25.000Z","month":"Nov","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}},{"name":"12:39:28","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-11-02T11:39:28.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-11-02T11:39:28.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-11-02T11:39:28.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-11-02T11:39:28.000Z","itemStyle":{"color":"#fff"}}]}],"day":2,"commit_date":"2021-11-02T11:39:28.000Z","month":"Nov","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}},{"name":"16:14:01","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-11-02T15:14:01.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-11-02T15:14:01.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-11-02T15:14:01.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-11-02T15:14:01.000Z","itemStyle":{"color":"#fff"}}]}],"day":2,"commit_date":"2021-11-02T15:14:01.000Z","month":"Nov","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}}],"month":"Nov","year":2021,"itemStyle":{"color":"#7f7f7f"},"value":null},{"name":3,"commit_date":"2021-11-03T09:04:32.000Z","children":[{"name":"10:04:32","children":[{"name":"1.0","level":"BACKWARD LEVEL","commit_date":"2021-11-03T09:04:32.000Z","itemStyle":{"color":"#fff"},"children":[{"level":"VERSION LEVEL","name":"1.0","children":[{"level":"CHANGES LEVEL","name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-11-03T09:04:32.000Z","label":{"show":false},"children":[{"name":"unclassified","itemStyle":{"color":"#000"},"commit_date":"2021-11-03T09:04:32.000Z","label":{"show":false},"value":1}]}],"commit_date":"2021-11-03T09:04:32.000Z","itemStyle":{"color":"#fff"}}]}],"day":3,"commit_date":"2021-11-03T09:04:32.000Z","month":"Nov","year":2021,"itemStyle":{"color":"hsl(0, 50%, 50%)"}}],"month":"Nov","year":2021,"itemStyle":{"color":"#7f7f7f"}}],"commit_date":"2021-11-02T11:07:25.000Z","year":2021,"itemStyle":{"color":"#7f7f7f"}}],"commit_date":"2021-01-08T17:58:05.000Z","itemStyle":{"color":"#7f7f7f"}}],"sort":null,"grid":{"with":"100%"},"levels":[{},{"r0":"3%","r":"11%","label":{"fontSize":10,"minAngle":10},"itemStyle":{"borderWidth":0}},{"r0":"11%","r":"18%","label":{"fontSize":10,"minAngle":10},"itemStyle":{"borderWidth":0}},{"r0":"18%","r":"25%","label":{"rotate":"tangential","fontSize":10,"minAngle":10},"itemStyle":{"borderWidth":0}},{"r0":"25.25%","r":"34%","label":{"fontSize":7,"minAngle":9},"itemStyle":{"borderWidth":0}},{"r0":"34.5%","r":"35.5%","label":{"show":false},"itemStyle":{"borderWidth":0}},{"r0":"36%","r":"50%","label":{"color":"#000000","fontSize":9,"minAngle":5},"itemStyle":{"borderWidth":1}},{"r0":"50%","r":"52%","itemStyle":{"borderWidth":1},"label":{"show":false,"rotate":"tangential","minAngle":12}},{"r0":"52.5%","r":"53.5%","label":{"position":"outside","padding":0,"silent":false,"fontSize":10,"color":"#000000","minAngle":2},"itemStyle":{"borderWidth":1}}]},"toolbox":{"orient":"horizontal","show":true,"itemSize":17,"itemGap":15,"feature":{"saveAsImage":{"show":true,"title":"Save as PNG","pixelRatio":3},"restore":{"show":true,"title":"Restore"}}}};
+      chart.setOption(chartOptions_2);
+      window.addEventListener('resize', function() {
+          chart.resize();
+      });
+    </script>
+  </body>
+</html>
