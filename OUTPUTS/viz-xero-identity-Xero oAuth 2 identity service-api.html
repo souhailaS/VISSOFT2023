@@ -1,162 +1,156 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>API Channges vs. API versioning</title>
-    <style>
-    .body {
-      font-family: Arial, Helvetica, sans-serif;
+<head>
+  <title>API Changes vs. API versioning</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      /* set font */
+      font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #333;
+      height: 100vh; 
     }
-    .views-container {
-        flex-direction: row;
-        display: flex;
-        justify-content: space-evenly;
-      }
-      
-      .views-item {
-        flex-grow: 1;
-        min-width: 45vw;
-        height: 80vh;
-        box-shadow: #bfc4c6 0px 0px 4px;
-      }
-    </style>
-  </head>
-  <body onLoad="window.scrollTo(0,170)">
-  <h1>API Meta data</h1>
-    <div>
-      <div style="font-weight: bold">API: Xero oAuth 2 identity service [2020-09-18 12:40:15 -0700
-] -&gt; Xero OAuth 2 identity service [2021-01-22 11:22:22 +1300
-] -&gt; Xero OAuth 2 Identity Service API [2021-01-22 15:03:51 +1300
-] -&gt; Xero oAuth 2 identity service [2021-01-22 16:31:30 -0800
-] -&gt; Xero OAuth 2 Identity Service API [2021-01-29 12:58:07 -0800
-] -&gt; Xero oAuth 2 identity service [2021-01-29 13:49:01 -0800
-] -&gt; Xero OAuth 2 Identity Service API [2021-02-03 10:57:21 -0800
-]</div>
-      <div style="font-weight: bold">Source: <a href="https://github.com/XeroAPI/Xero-OpenAPI.git" > https://github.com/XeroAPI/Xero-OpenAPI.git <a> </div>
-      <br>
-      <div style="font-weight: bold">Unique Versions: 102  <!--2.3.0 [2020-09-18 12:40:15 -0700
-] -&gt; 2.3.1 [2020-09-24 13:27:40 -0700
-] -&gt; 2.3.2 [2020-09-25 13:19:01 -0700
-] -&gt; 2.3.3 [2020-10-02 11:23:17 -0700
-] -&gt; 2.3.4 [2020-10-09 16:20:53 -0700
-] -&gt; 2.3.5 [2020-10-16 14:24:21 -0700
-] -&gt; 2.3.6 [2020-10-16 15:58:54 -0700
-] -&gt; 2.3.7 [2020-10-22 09:52:18 -0700
-] -&gt; 2.4.0 [2020-10-28 08:17:59 -0700
-] -&gt; 2.4.1 [2020-11-05 17:05:35 -0800
-] -&gt; 2.4.2 [2020-11-10 08:11:32 -0800
-] -&gt; 2.4.3 [2020-11-11 09:35:42 -0800
-] -&gt; 2.4.4 [2020-11-12 10:23:04 -0800
-] -&gt; 2.5.0 [2020-11-17 14:22:32 -0800
-] -&gt; 2.5.1 [2020-11-30 08:47:37 -0800
-] -&gt; 2.6.0 [2020-11-30 08:53:55 -0800
-] -&gt; 2.6.1 [2020-12-04 15:23:06 -0800
-] -&gt; 2.7.0 [2020-12-11 15:01:11 -0800
-] -&gt; 2.8.0 [2020-12-15 09:14:41 -0800
-] -&gt; 2.8.1 [2021-01-04 09:21:58 -0800
-] -&gt; 2.8.2 [2021-01-07 14:31:52 -0800
-] -&gt; 2.8.3 [2021-01-22 16:31:30 -0800
-] -&gt; 2.8.4 [2021-01-29 12:42:56 -0800
-] -&gt; 2.8.5 [2021-01-29 12:58:07 -0800
-] -&gt; 2.8.3 [2021-01-29 13:48:42 -0800
-] -&gt; 2.8.4 [2021-01-29 13:49:01 -0800
-] -&gt; 2.8.5 [2021-02-03 10:57:21 -0800
-] -&gt; 2.8.6 [2021-02-03 11:00:47 -0800
-] -&gt; 2.9.0 [2021-02-05 10:50:35 -0800
-] -&gt; 2.9.1 [2021-02-10 15:26:43 -0800
-] -&gt; 2.9.2 [2021-02-10 15:37:57 -0800
-] -&gt; 2.9.3 [2021-02-12 08:23:30 -0800
-] -&gt; 2.9.4 [2021-02-19 15:25:20 -0800
-] -&gt; 2.9.5 [2021-03-09 14:37:38 -0800
-] -&gt; 2.10.0 [2021-03-09 14:40:24 -0800
-] -&gt; 2.10.1 [2021-03-19 09:04:48 -0700
-] -&gt; 2.10.2 [2021-03-23 09:45:15 -0700
-] -&gt; 2.10.3 [2021-03-24 09:03:10 -0700
-] -&gt; 2.10.4 [2021-04-05 10:49:34 -0700
-] -&gt; 2.10.5 [2021-04-16 12:36:32 -0700
-] -&gt; 2.11.0 [2021-04-23 16:46:49 -0700
-] -&gt; 2.11.1 [2021-05-04 09:37:05 -0700
-] -&gt; 2.11.2 [2021-05-06 15:16:26 -0700
-] -&gt; 2.12.0 [2021-05-06 15:17:56 -0700
-] -&gt; 2.13.1 [2021-05-28 14:57:51 -0600
-] -&gt; 2.13.2 [2021-06-01 14:10:39 -0600
-] -&gt; 2.13.3 [2021-07-06 17:45:31 -0600
-] -&gt; 2.13.4 [2021-07-07 11:57:59 -0600
-] -&gt; 2.13.5 [2021-07-22 09:40:35 -0600
-] -&gt; 2.14.0 [2021-08-03 17:12:39 -0600
-] -&gt; 2.15.0 [2021-08-04 12:39:31 -0600
-] -&gt; 2.16.0 [2021-08-13 13:29:31 -0600
-] -&gt; 2.16.1 [2021-08-31 14:00:28 -0600
-] -&gt; 2.16.2 [2021-09-14 11:19:45 -0600
-] -&gt; 2.16.3 [2021-09-14 12:58:57 -0600
-] -&gt; 2.16.4 [2021-09-14 15:31:38 -0600
-] -&gt; 2.16.6 [2021-09-21 15:52:34 -0600
-] -&gt; 2.16.7 [2021-09-28 13:10:03 -0600
-] -&gt; 2.16.8 [2021-09-30 11:08:56 -0600
-] -&gt; 2.16.9 [2021-09-30 13:57:16 -0600
-] -&gt; 2.17.0 [2021-10-12 10:29:32 -0600
-] -&gt; 2.17.1 [2021-10-12 11:17:41 -0600
-] -&gt; 2.17.2 [2021-10-28 16:43:21 -0600
-] -&gt; 2.17.3 [2022-01-19 11:32:49 -0700
-] -&gt; 2.17.4 [2022-01-24 13:32:18 -0700
-] -&gt; 2.18.0 [2022-02-11 16:07:04 -0700
-] -&gt; 2.19.1 [2022-03-01 10:17:22 -0700
-] -&gt; 2.19.2 [2022-03-08 10:34:21 -0700
-] -&gt; 2.19.3 [2022-03-11 11:08:18 -0700
-] -&gt; 2.20.0 [2022-03-31 13:36:12 -0600
-] -&gt; 2.20.1 [2022-03-31 13:37:10 -0600
-] -&gt; 2.21.0 [2022-04-08 10:48:11 -0600
-] -&gt; 2.22.0 [2022-04-29 10:34:00 -0600
-] -&gt; 2.22.1 [2022-05-04 10:31:29 -0600
-] -&gt; 2.22.2 [2022-05-05 09:24:13 -0600
-] -&gt; 2.22.3 [2022-05-05 17:42:55 -0600
-] -&gt; 2.22.4 [2022-05-05 18:10:58 -0600
-] -&gt; 2.23.0 [2022-05-18 13:02:58 -0600
-] -&gt; 2.24.0 [2022-06-27 16:36:55 -0600
-] -&gt; 2.25.0 [2022-07-26 10:02:39 +1200
-] -&gt; 2.26.0 [2022-08-24 14:04:14 -0600
-] -&gt; 2.27.0 [2022-08-25 10:01:20 -0600
-] -&gt; 2.28.0 [2022-08-31 12:12:34 -0600
-] -&gt; 2.28.1 [2022-08-31 16:36:59 -0600
-] -&gt; 2.29.0 [2022-09-02 10:27:09 +1000
-] -&gt; 2.29.1 [2022-09-06 15:36:01 -0600
-] -&gt; 2.29.2 [2022-09-06 17:38:52 -0600
-] -&gt; 2.29.3 [2022-09-09 18:09:32 -0600
-] -&gt; 2.30.0 [2022-09-20 14:39:08 -0600
-] -&gt; 2.30.1 [2022-09-20 14:58:14 -0600
-] -&gt; 2.30.2 [2022-10-05 15:48:38 +1100
-] -&gt; 2.31.0 [2022-11-01 13:36:29 -0600
-] -&gt; 2.31.1 [2022-11-15 09:02:24 +1100
-] -&gt; 2.32.0 [2022-11-15 09:47:07 -0700
-] -&gt; 2.33.0 [2022-11-16 11:46:24 -0700
-] -&gt; 2.33.1 [2022-11-29 10:17:44 -0700
-] -&gt; 2.34.0 [2022-12-07 10:54:55 -0700
-] -&gt; 2.34.1 [2022-12-07 14:00:52 -0700
-] -&gt; 2.35.0 [2022-12-09 11:03:21 -0700
-] -&gt; 2.36.0 [2023-02-15 18:06:35 -0700
-] -&gt; 2.37.0 [2023-05-03 10:56:25 -0600
-] -&gt; 2.38.0 [2023-06-14 12:40:06 -0600
-]--></div>
-      <div style="font-weight: bold">API total commits: 109</div>
-      <div style="font-weight: bold">API First commit: 2020-09-18 12:40:15 -0700
-</div>
-      <div style="font-weight: bold">API Last commit: 2023-06-14 12:40:06 -0600
-</div>
-      
+    .views-item {
+      height: 600px;
+      box-shadow: #bfc4c6 0px 0px 4px;
+    }
+    .versions {
+      resize: both;
+      overflow: auto;
+  } 
+  .changes {
+    resize: both;
+    overflow: auto;
+} 
+  </style>
+</head>
+<body onLoad="window.scrollTo(0,170)">
+  <div class="container">
+    
 
-      <div style="display: inline-block"></div>
+    <div class="row">
+      <div class="col-md-6">
+      <h3>API Meta data</h3>
+      <div class="font-weight-bold">Source: <a href="https://github.com/XeroAPI/Xero-OpenAPI.git">https://github.com/XeroAPI/Xero-OpenAPI.git</a></div>
+      <div class="font-weight-bold">OAS File: xero-identity.yaml</div>
+      <div class="font-weight-bold">API Title: Xero OAuth 2 Identity Service API [2021-02-03 10:57:21 -0800
+]</div>
+      
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Commit Date</th>
+              <th>Version</th>
+              <th>Title</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+              <tr>
+                <td>2020-09-18 12:40:15 -0700
+</td>
+                <td>2.3.0</td>
+                <td>Xero oAuth 2 identity service</td>
+              </tr>
+            
+              <tr>
+                <td>2021-01-22 11:22:22 +1300
+</td>
+                <td>2.8.2</td>
+                <td>Xero OAuth 2 identity service</td>
+              </tr>
+            
+              <tr>
+                <td>2021-01-22 15:03:51 +1300
+</td>
+                <td>2.8.2</td>
+                <td>Xero OAuth 2 Identity Service API</td>
+              </tr>
+            
+              <tr>
+                <td>2021-01-22 16:31:30 -0800
+</td>
+                <td>2.8.3</td>
+                <td>Xero oAuth 2 identity service</td>
+              </tr>
+            
+              <tr>
+                <td>2021-01-29 12:58:07 -0800
+</td>
+                <td>2.8.5</td>
+                <td>Xero OAuth 2 Identity Service API</td>
+              </tr>
+            
+              <tr>
+                <td>2021-01-29 13:49:01 -0800
+</td>
+                <td>2.8.4</td>
+                <td>Xero oAuth 2 identity service</td>
+              </tr>
+            
+              <tr>
+                <td>2021-02-03 10:57:21 -0800
+</td>
+                <td>2.8.5</td>
+                <td>Xero OAuth 2 Identity Service API</td>
+              </tr>
+            
+          </tbody>
+        </table>
+      
+     
+      
+     
+      </div>
+      <div class="col-md-6">
+      <h3>API Commits and Versions</h3>
+      <table class="table">
+      <tr>
+        <th class="font-weight-bold">Unique Versions</th>
+        <td>102</td>
+      </tr>
+      <tr>
+        <th class="font-weight-bold">API Total Commits</th>
+        <td>109</td>
+      </tr>
+      <tr>
+        <th class="font-weight-bold">API First commit</th>
+        <td>2020-09-18 12:40:15 -0700
+</td>
+      </tr>
+      <tr>
+        <th class="font-weight-bold">API Last Commit</th>
+        <td>2023-06-14 12:40:06 -0600
+</td>
+      </tr>
+    </table>
+      </div>
     </div>
-<h1>Visualizations</h1>
-    <div class="views-container" id="views-container">
-      <div id="changes" class="views-item" style="min-width: 45vw"></div>
-      <div id="versions" class="views-item" style="min-width: 45vw"></div>
+
+    <h3>Visualizations</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <div id="versions" class="views-item"></div>
+      </div>
+      <div class="col-md-6">
+        <div id="changes" class="views-item"></div>
+      </div>
     </div>
+  </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.1.0/echarts.min.js"></script>
     <script>
       // Initialize ECharts chart with the container element
       var chartContainer = document.getElementById('changes');
       var chart = echarts.init(chartContainer);
-      var chartOptions_1 = {"grid":{"width":"110%"},"tooltip":{"trigger":"item","triggerOn":"mousemove"},"calculable":false,"series":{"color":"#fff","roam":true,"center":["50%","50%"],"radius":["5%","85%"],"type":"sunburst","data":[{"name":"paths","children":[{"name":"added","value":4,"children":[{"name":"/Connections","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"fontSize":9},"itemStyle":{"color":"#000"}},{"name":"/Connections/{id}","value":1,"children":[{"name":"DELETE","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#FF0000"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/connections","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"fontSize":9},"itemStyle":{"color":"#000"}},{"name":"/connections/{id}","value":1,"children":[{"name":"DELETE","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#FF0000"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}}],"label":{"show":false},"itemStyle":{"color":"#49ff49","opacity":0.5,"borderColor":"#fff","borderWidth":4}},{"name":"deleted","value":4,"children":[{"name":"/connections","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"fontSize":9},"itemStyle":{"color":"#000"}},{"name":"/connections/{id}","value":1,"children":[{"name":"DELETE","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#FF0000"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/Connections/{id}","value":1,"children":[{"name":"DELETE","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#FF0000"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/Connections","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"fontSize":9},"itemStyle":{"color":"#000"}}],"label":{"show":false},"itemStyle":{"color":"#ff4949","opacity":0.5,"borderColor":"#fff","borderWidth":4}}],"label":{"minAngle":11},"itemStyle":{"color":"#000"},"value":8},{"name":"info","children":[{"name":"version","value":101,"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":12,"fontSize":10}},{"name":"description","value":5,"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":12,"fontSize":9}},{"name":"title","value":6,"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":11}}],"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":11},"value":112},{"name":"tags","itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":11},"value":0}],"label":{"overflow":"truncate","ellipsis":true,"rotate":"tangential"},"labelLayout":{"hideOverlap":true}},"toolbox":{"orient":"horizontal","show":true,"itemSize":17,"itemGap":15,"feature":{"saveAsImage":{"show":true,"title":"Save as PNG","pixelRatio":3},"restore":{"show":true,"title":"Restore"}}}};
+      var chartOptions_1 = {"grid":{"width":"110%"},"tooltip":{"trigger":"item","triggerOn":"mousemove"},"calculable":false,"series":{"color":"#fff","roam":true,"center":["50%","50%"],"radius":["5%","85%"],"type":"sunburst","data":[{"name":"paths","children":[{"name":"added","value":4,"children":[{"name":"/Connections","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"fontSize":9},"itemStyle":{"color":"#000"}},{"name":"/Connections/{id}","value":1,"children":[{"name":"DELETE","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#FF0000"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/connections","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"fontSize":9},"itemStyle":{"color":"#000"}},{"name":"/connections/{id}","value":1,"children":[{"name":"DELETE","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#FF0000"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}}],"label":{"show":false},"itemStyle":{"color":"#49ff49","opacity":0.5,"borderColor":"#fff","borderWidth":4}},{"name":"deleted","value":4,"children":[{"name":"/connections","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"fontSize":9},"itemStyle":{"color":"#000"}},{"name":"/connections/{id}","value":1,"children":[{"name":"DELETE","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#FF0000"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}},{"name":"/Connections","value":1,"children":[{"name":"GET","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#0AA40D"}}],"label":{"minAngle":12,"fontSize":9},"itemStyle":{"color":"#000"}},{"name":"/Connections/{id}","value":1,"children":[{"name":"DELETE","value":1,"label":{"minAngle":11},"itemStyle":{"color":"#FF0000"}}],"label":{"minAngle":12,"show":false},"itemStyle":{"color":"#000"}}],"label":{"show":false},"itemStyle":{"color":"#ff4949","opacity":0.5,"borderColor":"#fff","borderWidth":4}}],"label":{"minAngle":11},"itemStyle":{"color":"#000"},"value":8},{"name":"info","children":[{"name":"version","value":101,"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":12,"fontSize":10}},{"name":"description","value":5,"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":12,"fontSize":9}},{"name":"title","value":6,"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":11}}],"itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":11},"value":112},{"name":"tags","itemStyle":{"color":"#C8C8C8"},"label":{"minAngle":11},"value":0}],"label":{"overflow":"truncate","ellipsis":true,"rotate":"tangential"},"labelLayout":{"hideOverlap":true}},"toolbox":{"orient":"horizontal","show":true,"itemSize":17,"itemGap":15,"feature":{"saveAsImage":{"show":true,"title":"Save as PNG","pixelRatio":3},"restore":{"show":true,"title":"Restore"}}}};
       chart.setOption(chartOptions_1);
       window.addEventListener('resize', function() {
         chart.resize();
