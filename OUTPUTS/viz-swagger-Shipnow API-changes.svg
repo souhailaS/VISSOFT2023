@@ -1,0 +1,60 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 500 500">
+<rect width="500" height="500" x="0" y="0" id="0" fill="none"></rect>
+<path d="M250 187.5A62.5 62.5 0 1 1 243.8 187.8A62.5 62.5 0 0 1 250 187.5M250 237.5A12.5 12.5 0 1 0 251.2 237.6A12.5 12.5 0 0 0 250 237.5Z" fill="#000" stroke="white" stroke-linejoin="bevel" class="zr8-cls-0"></path>
+<path d="M250 137.5A112.5 112.5 0 1 1 238.8 138.1A112.5 112.5 0 0 1 250 137.5M250 187.5A62.5 62.5 0 1 0 256.2 187.8A62.5 62.5 0 0 0 250 187.5Z" fill="#49ff49" fill-opacity="0.5" stroke="#fff" stroke-width="4" stroke-opacity="0.5" stroke-linejoin="bevel" class="zr8-cls-1"></path>
+<path d="M250 87.5A162.5 162.5 0 1 1 233.8 88.3A162.5 162.5 0 0 1 250 87.5M250 137.5A112.5 112.5 0 1 0 261.2 138.1A112.5 112.5 0 0 0 250 137.5Z" fill="#000" stroke="white" stroke-linejoin="bevel" class="zr8-cls-2"></path>
+<path d="M250 37.5A212.5 212.5 0 1 1 228.8 38.6A212.5 212.5 0 0 1 250 37.5M250 87.5A162.5 162.5 0 1 0 266.2 88.3A162.5 162.5 0 0 0 250 87.5Z" fill="#F3C142" stroke="white" stroke-linejoin="bevel" class="zr8-cls-3"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" transform="translate(250 287.5)" fill="#ccc" stroke="#000" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">paths</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" transform="translate(250 437.5)" fill="#333">POST</text>
+<path d="M-14.8 -16l66.6 0l0 32l-66.6 0Z" transform="translate(448.253 16)" fill="none" stroke="#ccc" stroke-width="0"></path>
+<path d="M-7.3 -1.8L-0.1 4.8L7.3 -1.6M-7.3 4.3L-7.3 8.5L7.1 8.5L7.1 4.3M-0.1 4.7L-0.1 -8.5" transform="translate(448.253 16)" fill="none" stroke="#666"></path>
+<path d="M-7.9 1M5.1 -3.4L8.1 -3.4L8.1 -6.4M8 -3C6.7 -6.4 3.2 -8.9 -1 -8.4C-5.3 -8 -8.6 -4.2 -8.4 0.2M-5.1 3.4L-8.1 3.4L-8.1 6.4M-8 3C-6.7 6.4 -3.2 8.9 1 8.4C5.3 8 8.6 4.2 8.4 -0.2" transform="translate(484.0476 16)" fill="none" stroke="#666"></path>
+<style ><![CDATA[
+.zr8-cls-0 {
+animation:zr8-ani-0 1s cubic-bezier(0.65,0,0.35,1) both;
+}
+.zr8-cls-1 {
+animation:zr8-ani-1 1s cubic-bezier(0.65,0,0.35,1) both;
+}
+.zr8-cls-2 {
+animation:zr8-ani-2 1s cubic-bezier(0.65,0,0.35,1) both;
+}
+.zr8-cls-3 {
+animation:zr8-ani-3 1s cubic-bezier(0.65,0,0.35,1) both;
+}
+@keyframes zr8-ani-0 {
+0% {
+d:path("M250 237.5A12.5 12.5 0 1 1 248.8 237.6A12.5 12.5 0 0 1 250 237.5M250 237.5A12.5 12.5 0 1 0 251.2 237.6A12.5 12.5 0 0 0 250 237.5Z");
+}
+100% {
+d:path("M250 187.5A62.5 62.5 0 1 1 243.8 187.8A62.5 62.5 0 0 1 250 187.5M250 237.5A12.5 12.5 0 1 0 251.2 237.6A12.5 12.5 0 0 0 250 237.5Z");
+}
+}
+@keyframes zr8-ani-1 {
+0% {
+d:path("M250 187.5A62.5 62.5 0 1 1 243.8 187.8A62.5 62.5 0 0 1 250 187.5M250 187.5A62.5 62.5 0 1 0 256.2 187.8A62.5 62.5 0 0 0 250 187.5Z");
+}
+100% {
+d:path("M250 137.5A112.5 112.5 0 1 1 238.8 138.1A112.5 112.5 0 0 1 250 137.5M250 187.5A62.5 62.5 0 1 0 256.2 187.8A62.5 62.5 0 0 0 250 187.5Z");
+}
+}
+@keyframes zr8-ani-2 {
+0% {
+d:path("M250 137.5A112.5 112.5 0 1 1 238.8 138.1A112.5 112.5 0 0 1 250 137.5M250 137.5A112.5 112.5 0 1 0 261.2 138.1A112.5 112.5 0 0 0 250 137.5Z");
+}
+100% {
+d:path("M250 87.5A162.5 162.5 0 1 1 233.8 88.3A162.5 162.5 0 0 1 250 87.5M250 137.5A112.5 112.5 0 1 0 261.2 138.1A112.5 112.5 0 0 0 250 137.5Z");
+}
+}
+@keyframes zr8-ani-3 {
+0% {
+d:path("M250 87.5A162.5 162.5 0 1 1 233.8 88.3A162.5 162.5 0 0 1 250 87.5M250 87.5A162.5 162.5 0 1 0 266.2 88.3A162.5 162.5 0 0 0 250 87.5Z");
+}
+100% {
+d:path("M250 37.5A212.5 212.5 0 1 1 228.8 38.6A212.5 212.5 0 0 1 250 37.5M250 87.5A162.5 162.5 0 1 0 266.2 88.3A162.5 162.5 0 0 0 250 87.5Z");
+}
+}
+]]>
+
+</style>
+</svg>
