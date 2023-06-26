@@ -3,11 +3,11 @@
 <path d="M250 226.4A23.6 23.6 0 1 1 236.7 230.5L243 239.7A12.5 12.5 0 1 0 250 237.5Z" fill="#000" stroke="white" stroke-linejoin="bevel" class="zr0-cls-0"></path>
 <path d="M250 215.3A34.7 34.7 0 1 1 244.8 284.3L246.5 273.3A23.6 23.6 0 1 0 250 226.4Z" fill="#49ff49" fill-opacity="0.5" stroke="#fff" stroke-width="4" stroke-opacity="0.5" stroke-linejoin="bevel" class="zr0-cls-1"></path>
 <path d="M250 204.2A45.8 45.8 0 0 1 275.8 212.1L269.6 221.3A34.7 34.7 0 0 0 250 215.3Z" fill="#000" stroke="white" stroke-linejoin="bevel" class="zr0-cls-2"></path>
-<path d="M250 193.1A56.9 56.9 0 0 1 266.8 195.6L263.5 206.2A45.8 45.8 0 0 0 250 204.2Z" fill="#FF0000" stroke="white" stroke-linejoin="bevel" class="zr0-cls-3"></path>
-<path d="M266.8 195.6A56.9 56.9 0 0 1 282.1 203L275.8 212.1A45.8 45.8 0 0 0 263.5 206.2Z" fill="#6dc0e3" stroke="white" stroke-linejoin="bevel" class="zr0-cls-4"></path>
+<path d="M250 193.1A56.9 56.9 0 0 1 266.8 195.6L263.5 206.2A45.8 45.8 0 0 0 250 204.2Z" fill="#0AA40D" stroke="white" stroke-linejoin="bevel" class="zr0-cls-3"></path>
+<path d="M266.8 195.6A56.9 56.9 0 0 1 282.1 203L275.8 212.1A45.8 45.8 0 0 0 263.5 206.2Z" fill="#F3C142" stroke="white" stroke-linejoin="bevel" class="zr0-cls-4"></path>
 <path d="M275.8 212.1A45.8 45.8 0 0 1 292.7 233.3L282.3 237.3A34.7 34.7 0 0 0 269.6 221.3Z" fill="#000" stroke="white" stroke-linejoin="bevel" class="zr0-cls-5"></path>
-<path d="M282.1 203A56.9 56.9 0 0 1 294.5 214.5L285.8 221.4A45.8 45.8 0 0 0 275.8 212.1Z" fill="#F3C142" stroke="white" stroke-linejoin="bevel" class="zr0-cls-6"></path>
-<path d="M294.5 214.5A56.9 56.9 0 0 1 303 229.2L292.7 233.3A45.8 45.8 0 0 0 285.8 221.4Z" fill="#0AA40D" stroke="white" stroke-linejoin="bevel" class="zr0-cls-7"></path>
+<path d="M282.1 203A56.9 56.9 0 0 1 294.5 214.5L285.8 221.4A45.8 45.8 0 0 0 275.8 212.1Z" fill="#FF0000" stroke="white" stroke-linejoin="bevel" class="zr0-cls-6"></path>
+<path d="M294.5 214.5A56.9 56.9 0 0 1 303 229.2L292.7 233.3A45.8 45.8 0 0 0 285.8 221.4Z" fill="#6dc0e3" stroke="white" stroke-linejoin="bevel" class="zr0-cls-7"></path>
 <path d="M292.7 233.3A45.8 45.8 0 0 1 295.7 246.6L284.6 247.4A34.7 34.7 0 0 0 282.3 237.3Z" fill="#000" stroke="white" stroke-linejoin="bevel" class="zr0-cls-8"></path>
 <path d="M303 229.2A56.9 56.9 0 0 1 306.8 245.7L295.7 246.6A45.8 45.8 0 0 0 292.7 233.3Z" fill="#0AA40D" stroke="white" stroke-linejoin="bevel" class="zr0-cls-9"></path>
 <path d="M295.7 246.6A45.8 45.8 0 0 1 294.7 260.2L283.9 257.7A34.7 34.7 0 0 0 284.6 247.4Z" fill="#000" stroke="white" stroke-linejoin="bevel" class="zr0-cls-10"></path>
@@ -75,8 +75,7 @@
 <path d="M230.4 221.3A34.7 34.7 0 0 1 239.8 216.8L243 227.4A23.6 23.6 0 0 0 236.7 230.5Z" fill="#C8C8C8" stroke="white" stroke-linejoin="bevel" class="zr0-cls-72"></path>
 <path d="M239.8 216.8A34.7 34.7 0 0 1 250 215.3L250 226.4A23.6 23.6 0 0 0 243 227.4Z" fill="#C8C8C8" stroke="white" stroke-linejoin="bevel" class="zr0-cls-73"></path>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" transform="matrix(0.956,-0.295,0.295,0.956,255.322,267.2534)" fill="#ccc" stroke="#000" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">paths</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" transform="matrix(0.623,0.782,-0.782,0.623,281.4904,224.8872)" fill="#ccc" stroke="#000" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">/trust</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" transform="matrix(0.075,-0.997,0.997,0.075,301.2452,253.8403)" fill="#333">PUT</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:9px;font-family:sans-serif;" transform="matrix(0.623,0.782,-0.782,0.623,281.4904,224.8872)" fill="#ccc" stroke="#000" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">/trust/{id}</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" transform="matrix(0.623,-0.782,0.782,0.623,290.1775,282.0404)" fill="#333">POST</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:9px;font-family:sans-serif;" transform="matrix(0.901,0.434,-0.434,0.901,232.5241,286.289)" fill="#ccc" stroke="#000" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">/trust/{id}</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:9px;font-family:sans-serif;" transform="matrix(0.901,0.434,-0.434,0.901,227.7032,296.2998)" fill="#ccc" stroke="#000" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">operations</text>
